@@ -4,3 +4,224 @@
     Author     : Diego
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/*Zerando o CSS*/
+
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+
+/*fundo-tela*/
+
+html{
+    width: 100vw;
+    height: 100vw;
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(imagens/fundo_index.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+header{
+	width: 100%;
+	height: 7vh;
+	background: rgba(22,22,22,0.2);
+	
+}
+
+.menu-content{
+	text-transform: uppercase;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 1.2rem;
+}
+
+.icone{
+    margin-top: 12px;
+    /* border-radius: 20px; */
+	cursor: pointer;
+}
+
+.logo{
+	display: block;
+	font-size: 1.8rem;
+	letter-spacing: 0.4rem;
+	cursor: pointer;
+}
+
+.marca{
+    display: flex;
+    gap: 40px;
+}
+
+.menu-content .list-itens{
+	display: flex;
+	list-style: none;
+	gap: 20px;
+	
+}
+
+.menu-content .list-itens a {
+	text-decoration: none;
+	color: white;
+	padding: 1.5rem;
+	transform: 2ms ease-in;
+	position: relative;
+	
+}
+
+.menu-content .list-itens a:before{
+	content: ' ';
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 0px;
+	height: 1px;
+	background-color: rgb(251,255,0);
+	transition: all 1.5s ease;
+}
+
+.menu-content .list-itens a:hover:before{
+	width: 100%;
+}
+
+/* .menu-content .list-itens .submenus-projetos{
+	list-style: none;
+	background-color: red;
+} */
+
+ul ul {
+	display:none;
+	
+}
+
+ul li:hover > ul{
+	display: block;
+	position: relative;
+}
+
+/*Centro - conteúdo principal*/
+
+main {
+	height: 93vh;
+	display: flex;
+	/* flex-direction: center; */
+	/* justify-content: space-between; */
+	/* align-items: center; */
+}
+
+.desenho{
+	 border-radius: 3600px; 
+	 width: 400px;
+	 
+}
+
+.primary-text {
+	width: 40%;
+	font-size: 5rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	text-transform: uppercase;
+	text-wrap: wrap;
+}
+
+.main-content .inicio {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	padding: 10px;
+	justify-content: space-between;	
+	
+}
+
+.foto{
+	 border-radius: 3600px; 
+	 width: 400px;
+}
+
+.second-text {
+	width: 40%;
+	font-size: 5rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	text-transform: uppercase;
+	text-wrap: wrap;
+	
+	
+}
+
+.main-content .sobre{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	padding: 10px;
+	justify-content: space-between;
+	}
+
+/* Botões */
+
+.btns {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.btns button{
+	width: 250px;
+	height: 60px;
+	cursor: pointer;
+	border: 1px solid white;
+	color: white;
+	text-transform: uppercase;
+	background-color: transparent;
+	font-weight: bold;
+	letter-spacing: 0.2rem;
+	border-radius: 20px;
+	position: relative;
+	transition: 1.5s;
+}
+
+.btns button:hover{
+	color: rgb(251,255,0);
+	border: none;
+}
+
+.btns button:before{
+	content: ' ';
+	bottom: 0;
+	border-radius: 20px;
+	left: 0;
+	position: absolute;
+	width: 0;
+	height: 60px;
+	background-color: rgb(61,61,61);
+	z-index: -1;
+	transition: 1s;
+}
+
+.btns button:hover:before{
+	width: 100%;
+	
+}
+
+footer{
+	height: 25px;
+	background-color: #000000;
+	color: rgb(255,255,255);
+	font-size: 1.4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
