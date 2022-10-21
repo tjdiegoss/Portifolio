@@ -18,26 +18,31 @@
 
 html{
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     font-size: 62.5%;
     color: white;
     font-family: 'Lato', sans-serif;
 }
 
 body{
-    background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(imagens/fundo_index.jpg);
+
+    /* background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(imagens/fundo_index.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 header{
-	width: 100%;
-	height: 7vh;
-	background: rgba(22,22,22,0.2);
+width: 100%;
+height: 7vh;
+background: rgba(22,22,22,0.2);
+position: fixed;	
+z-index: 2;
 	
 }
+
+
 
 .menu-content{
 	text-transform: uppercase;
@@ -50,12 +55,12 @@ header{
 
 .icone{
     margin-top: 12px;
-    /* border-radius: 20px; */
+    border-radius: 20px;
 	cursor: pointer;
 }
 
 .logo{
-	display: block;
+	display: block; 
 	font-size: 1.8rem;
 	letter-spacing: 0.4rem;
 	cursor: pointer;
@@ -63,7 +68,7 @@ header{
 
 .marca{
     display: flex;
-    gap: 40px;
+    gap: 20px;
 }
 
 .menu-content .list-itens{
@@ -80,9 +85,9 @@ header{
 	transform: 2ms ease-in;
 	position: relative;
 	
-}
+} 
 
-.menu-content .list-itens a:before{
+ .menu-content .list-itens a:before{
 	content: ' ';
 	position: absolute;
 	bottom: 0px;
@@ -95,15 +100,13 @@ header{
 
 .menu-content .list-itens a:hover:before{
 	width: 100%;
-}
+} 
 
-/* .menu-content .list-itens .submenus-projetos{
-	list-style: none;
-	background-color: red;
-} */
+
 
 ul ul {
 	display:none;
+	list-style: none;
 	
 }
 
@@ -122,57 +125,94 @@ main {
 	/* align-items: center; */
 }
 
+.principal-direita {
+	position: absolute;
+	bottom: 60px;
+	right: 120px;
+	width: 500px;
+	height: 350px; 
+}
+
 .desenho{
-	 border-radius: 3600px; 
-	 width: 400px;
+	 border-radius: 20px; 
+	 width: 100%;
+	 height: 100%;
+	 
 	 
 }
 
 .primary-text {
+	padding-top: 100px;
 	width: 40%;
-	font-size: 5rem;
-	margin-bottom: 2rem;
-	text-align: center;
+	font-size: 27px;
+	padding-left: 50px;
+	/* margin-bottom: 2rem;
+	text-align: center; */
 	text-transform: uppercase;
 	text-wrap: wrap;
 }
 
-.main-content .inicio {
+home-content{
+	display: flex;
+	
+}
+
+.inicio {
 	width: 100%;
 	height: 100%;
 	display: flex;
-	padding: 10px;
-	justify-content: space-between;	
-	
+	align-items: center;
+	/* padding: 10px; */
+	justify-content: space-between;	 
+	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(imagens/fundo_index.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
 }
 
 .foto{
-	 border-radius: 3600px; 
-	 width: 400px;
+	padding-top: 100px;
+	/* border-radius: 3600px; */
+	width: 400px;
+    height: 400px;
+    object-fit: cover;
 }
 
+.sobre-esquerda{
+	
+}
+
+.sobre-direira{}
+
 .second-text {
+	padding-top: 100px;
 	width: 40%;
-	font-size: 5rem;
-	margin-bottom: 2rem;
-	text-align: center;
-	text-transform: uppercase;
+	font-size: 16px;
+	padding-left: 50px;
+	/* margin-bottom: 2rem;
+	text-align: center; */
 	text-wrap: wrap;
 	
 	
 }
 
-.main-content .sobre{
+.sobre{
 	width: 100%;
-	height: 100%;
+	height: 100%; 
 	display: flex;
-	padding: 10px;
-	justify-content: space-between;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(imagens/2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
 	}
 
 /* Botões */
 
-.btns {
+/* .btns {
 	display: flex;
 	justify-content: center;
 	gap: 20px;
@@ -224,4 +264,4 @@ footer{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
+} */
