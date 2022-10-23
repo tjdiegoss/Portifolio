@@ -1,6 +1,6 @@
 <h1 align="center">Portfólio </h1>
  
- # Indice   
+ # Indice   
   
  - [Projeto](#projeto)  
  - [Tecnologias Utilizadas](#tecnologias-utilizadas)  
@@ -10,7 +10,7 @@
  - [Licença](#licença). 
   
   
- ---   
+ ---  
   
  ## Projeto   
     
@@ -27,13 +27,13 @@
   
  - [JavaScript](http://developer.mozilla.org) 
   
- ---   
+ ---  
   
  ## Screenshots    
   
   
   
- ---   
+ ---  
   
  ## Como baixar o projeto   
   
@@ -52,7 +52,7 @@
   
  ``` 
   
- ---   
+ ---  
   
  ## Como contribuir 
  <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado---> 
@@ -66,25 +66,25 @@
   
  Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). 
   
- ---   
+ ---  
   
   
  ## Tarefas 
   
  O controle das tarefas desse projeto será realizado pelo GitHub.   
   
- ---   
+ ---  
  ## Icones   
   
- - 📦: Nova Funcionalidade 
- - 🆙: Atualização 
- - 🐞: Correção de bug 
- - 🏁: Release 
+ - 📦: Nova Funcionalidade  
+ - 🆙: Atualização  
+ - 🐞: Correção de bug  
+ - 🏁: Release  
   
- ---   
+ ---  
  ## Licença   
   
  Esse projeto encontra-se sob a Licença MIT. Consulte [LICENSE](./LICENSE.md) para ver mais informações.  
   
- ---   
+ ---  
  Desenvolvido por: [José Diego Tenório](https://www.github.com/tjdiegoss) 
