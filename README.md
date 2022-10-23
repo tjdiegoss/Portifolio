@@ -1,3 +1,90 @@
-# Portifolio
-
-- Em construção... 
+<h1 align="center">Portfólio </h1>
+ 
+ # Indice   
+  
+ - [Projeto](#projeto)  
+ - [Tecnologias Utilizadas](#tecnologias-utilizadas)  
+ - [Screenshots](#screenshots)  
+ - [Como baixar o projeto](#como-baixar-o-projeto)  
+ - [Como contribuir](#como-contribuir)  
+ - [Licença](#licença). 
+  
+  
+ ---   
+  
+ ## Projeto   
+    
+  
+ --- 
+  
+ ## Tecnologias Utilizadas   
+  
+ Esse projeto foi desenvolvido utilizando as seguintes tecnologias: 
+  
+ - [HTML](http://www.w3.org/html) 
+  
+ - [CSS](http://www.w3.org/css) 
+  
+ - [JavaScript](http://developer.mozilla.org) 
+  
+ ---   
+  
+ ## Screenshots    
+  
+  
+  
+ ---   
+  
+ ## Como baixar o projeto   
+  
+ ```bash 
+ # Clonar o repositório 
+ $ git clone https://github.com/tjdiegoss/Portifolio.git 
+  
+ # Entrar no repositório 
+ $ cd Portifolio 
+  
+ # Instalar as dependências 
+ $ yarn install 
+  
+ # Iniciar o projeto 
+ $ yarn start 
+  
+ ``` 
+  
+ ---   
+  
+ ## Como contribuir 
+ <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado---> 
+ Para contribuir, siga estas etapas: 
+  
+ 1. Bifurque este repositório. 
+ 2. Crie um branch: `git checkout -b <nome_branch>`. 
+ 3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'` 
+ 4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>` 
+ 5. Crie a solicitação de pull. 
+  
+ Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). 
+  
+ ---   
+  
+  
+ ## Tarefas 
+  
+ O controle das tarefas desse projeto será realizado pelo GitHub.   
+  
+ ---   
+ ## Icones   
+  
+ - 📦: Nova Funcionalidade 
+ - 🆙: Atualização 
+ - 🐞: Correção de bug 
+ - 🏁: Release 
+  
+ ---   
+ ## Licença   
+  
+ Esse projeto encontra-se sob a Licença MIT. Consulte [LICENSE](./LICENSE.md) para ver mais informações.  
+  
+ ---   
+ Desenvolvido por: [José Diego Tenório](https://www.github.com/tjdiegoss) 
