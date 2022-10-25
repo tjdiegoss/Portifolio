@@ -15,7 +15,7 @@
 
 /*fundo-tela*/
 
-html{
+ html{
     width: 100vw;
     height: 100vh;
     font-size: 62.5%;
@@ -24,25 +24,22 @@ html{
 }
 
 body{
+	overflow-x: hidden;
     width: 100%;
     height: 100%;
-    /* background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(imagens/fundo_index.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-position-y: 0px;
-    background-repeat: no-repeat; */
+	background-color: red;
+	
+  
 }
 
 header{
 width: 100%;
 height: 7vh;
-background: rgba(22,22,22,0.2);
-position: fixed;	
-z-index: 2;
+background:  rgba(22,22,22,0.2);
+position: fixed;
+
 	
 }
-
-
 
 .menu-content{
 	text-transform: uppercase;
@@ -53,22 +50,12 @@ z-index: 2;
 	font-size: 1.2rem;
 }
 
-.icone{
-    margin-top: 12px;
-    border-radius: 20px;
-	cursor: pointer;
-}
-
 .logo{
 	display: block; 
 	font-size: 1.8rem;
 	letter-spacing: 0.4rem;
 	cursor: pointer;
-}
-
-.marca{
-    display: flex;
-    gap: 20px;
+	margin-top: 0;
 }
 
 .menu-content .list-itens{
@@ -118,11 +105,10 @@ ul li:hover > ul{
 /*Centro - conteúdo principal*/
 
 main {
+	margin: 0px;
 	height: 93vh;
 	display: flex;
-	/* flex-direction: center; */
-	/* justify-content: space-between; */
-	/* align-items: center; */
+	
 }
 
 .principal-direita {
@@ -164,7 +150,7 @@ home-content{
 	align-items: center;
 	/* padding: 10px; */
 	justify-content: space-between;	 
-	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(imagens/fundo_index.jpg);
+	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(../imagens/fundo_index.jpg);
         background-position: center center;
         background-size: cover;
         background-position-y: 0px;
@@ -203,7 +189,7 @@ home-content{
 	display: flex;
     /* flex-wrap: wrap; */
         justify-content: space-between;
-	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(imagens/2.jpg);
+	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(../imagens/2.jpg);
         background-position: center center;
         background-size: cover;
         background-position-y: 0px;
@@ -264,4 +250,4 @@ footer{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-} */
+} */ 
