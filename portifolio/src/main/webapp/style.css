@@ -1,4 +1,3 @@
-
 /* 
     Created on : 22/09/2022, 07:24:36
     Author     : Diego
@@ -25,7 +24,8 @@ html{
 }
 
 body{
-
+    width: 100%;
+    height: 100%;
     /* background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(imagens/fundo_index.jpg);
     background-position: center center;
     background-size: cover;
@@ -165,18 +165,18 @@ home-content{
 	/* padding: 10px; */
 	justify-content: space-between;	 
 	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(imagens/fundo_index.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-position-y: 0px;
-    background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-position-y: 0px;
+        background-repeat: no-repeat;
 }
 
 .foto{
 	padding-top: 100px;
 	/* border-radius: 3600px; */
 	width: 400px;
-    height: 400px;
-    object-fit: cover;
+        height: 400px;
+        object-fit: cover;
 }
 
 .sobre-esquerda{
@@ -202,12 +202,12 @@ home-content{
 	height: 100%; 
 	display: flex;
     /* flex-wrap: wrap; */
-    justify-content: space-between;
+        justify-content: space-between;
 	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(imagens/2.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-position-y: 0px;
-    background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-position-y: 0px;
+        background-repeat: no-repeat;
 	}
 
 /* Botões */
