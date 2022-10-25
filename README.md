@@ -7,7 +7,7 @@
  - [Screenshots](#screenshots)  
  - [Como baixar o projeto](#como-baixar-o-projeto)  
  - [Como contribuir](#como-contribuir)  
- - [Licença](#licença). 
+ - [Licença](#licença) 
   
   
  ---  
