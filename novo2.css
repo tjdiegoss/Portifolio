@@ -1,22 +1,11 @@
-/* 
-    Created on : 22/09/2022, 07:24:36
-    Author     : Diego
-*/
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-
-/*Zerando o CSS*/
-
 *{
-    margin: 0;
-    padding:  0;
-    box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
 
-/*fundo-tela*/
-
- html{
-    width: 100vw;
+html{
+	width: 100vw;
     height: 100vh;
     font-size: 62.5%;
     color: white;
@@ -25,89 +14,57 @@
 
 body{
 	overflow-x: hidden;
-    width: 100%;
-    height: 100%;
-
-	
-  
+    background: linear-gradient(rgba(17,17,17,0.8),rgba(20,20,20,1)),url(../imagens/fundo_index.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
 }
 
-header{
-width: 100vw;
-height: 7vh;
-background:  rgba(22,22,22,0.2);
-padding: 20px;
-align-items: center;
-flex-wrap: rap;
-position: fixed;
-z-index: 3;
-
+.header{
+    display: flex;
+	width: 100%;
+    height: 7vh;
+    background: rgba(22,22,22,0.2);
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	
 	
 }
 
-.menu-content{
-	/* text-transform: uppercase; */
+.menu-conteudo{
+    text-transform: uppercase;
 	height: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	font-size: 1.2rem;
 }
 
 .logo{
-	display: block; 
+    display: block; 
 	font-size: 1.8rem;
 	letter-spacing: 0.4rem;
 	cursor: pointer;
 	margin-top: 0;
+    
 }
 
-.menu-content .list-itens{
-	display: flex;
-	list-style: none;
-	gap: 20px;
-	text-transform: uppercase;
-	
+.menu-conteudo .menu-lista{
+    display: flex;
+    list-style: none;
+    gap: 20px;
 }
 
-.menu-content .list-itens a {
-	text-decoration: none;
-	color: white;
-	padding: 1.5rem;
-	transform: 2ms ease-in;
-	position: relative;
-	
-} 
+.menu-conteudo .menu-lista a {
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
 
- .menu-content .list-itens a:before{
-	content: ' ';
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-	width: 0px;
-	height: 1px;
-	background-color: rgb(251,255,0);
-	transition: all 1.5s ease;
 }
-
-.menu-content .list-itens a:hover:before{
-	width: 100%;
-} 
-
-
-
-ul ul {
-	display:none;
-	list-style: none;
-	
-}
-
-ul li:hover > ul{
-	display: block;
-	position: relative;
-}
-
-/*Centro - conteúdo principal*/
 
 main {
     height: 93vh;
@@ -123,7 +80,7 @@ main .inicio {
 	height: 100%;
 	display: flex;
 	flex-direction: space-between;
-	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(../imagens/fundo_inicio.jpg);
+	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(../imagens/fundo_index.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
@@ -173,7 +130,7 @@ main .sobre{
 	height: 100%;
 	display: flex;
 	flex-direction: space-around;
-	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(../imagens/fundo_sobre.jpg);
+	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(../imagens/2.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
@@ -218,14 +175,4 @@ main .sobre .sobre-texto{
 	color: black;
 	/* padding-left: 50px; */
 	text-wrap: wrap;
-}
-
-footer{
-	height: 25px;
-	background-color: #000000;
-	color: rgb(255,255,255);
-	font-size: 1.4rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
