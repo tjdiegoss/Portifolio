@@ -35,3 +35,12 @@ body{
 	
   
 }
+
+header {
+	width: 100%;
+	height: 7vh;
+	position: absolute;
+	/* background: black; */
+	
+	
+}
