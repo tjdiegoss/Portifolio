@@ -27,20 +27,25 @@ body{
 	overflow-x: hidden;
     width: 100%;
     height: 100%;
+	background: rgba(22,22,22,0.2);
+	margin: 0;
 
 	
   
 }
 
+
+
 header{
+
 width: 100vw;
 height: 7vh;
 background:  rgba(22,22,22,0.2);
 padding: 20px;
 align-items: center;
 flex-wrap: rap;
-position: fixed;
-z-index: 3;
+position: absolute;
+
 
 	
 }
@@ -62,7 +67,7 @@ z-index: 3;
 	margin-top: 0;
 }
 
-.menu-content .list-itens{
+.menu-content .lista-itens{
 	display: flex;
 	list-style: none;
 	gap: 20px;
@@ -70,7 +75,7 @@ z-index: 3;
 	
 }
 
-.menu-content .list-itens a {
+.menu-content .lista-itens a {
 	text-decoration: none;
 	color: white;
 	padding: 1.5rem;
@@ -79,7 +84,7 @@ z-index: 3;
 	
 } 
 
- .menu-content .list-itens a:before{
+ .menu-content .lista-itens a:before{
 	content: ' ';
 	position: absolute;
 	bottom: 0px;
@@ -90,7 +95,7 @@ z-index: 3;
 	transition: all 1.5s ease;
 }
 
-.menu-content .list-itens a:hover:before{
+.menu-content .lista-itens a:hover:before{
 	width: 100%;
 } 
 
@@ -110,11 +115,12 @@ ul li:hover > ul{
 /*Centro - conteúdo principal*/
 
 main {
-    height: 93vh;
+    width: 100vw;
+	height: 100vh;
     display: block;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    
 }
 
 
