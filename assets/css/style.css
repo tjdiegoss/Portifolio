@@ -4,6 +4,7 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
 
 /*Zerando o CSS*/
 
@@ -51,7 +52,6 @@ position: absolute;
 }
 
 .menu-content{
-	/* text-transform: uppercase; */
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -65,6 +65,25 @@ position: absolute;
 	letter-spacing: 0.4rem;
 	cursor: pointer;
 	margin-top: 0;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+}
+
+.logo a {
+	color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+	text-decoration: none;
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.logo a span{
+    color: #00ff00;
+    transition: all 0.3s ease;
+}
+
+.barra-menu.sticky .logo a span{
+    color: #fff;
 }
 
 .menu-content .lista-itens{
@@ -81,6 +100,7 @@ position: absolute;
 	padding: 1.5rem;
 	transform: 2ms ease-in;
 	position: relative;
+	text-shadow: black 0.1em 0.1em 0.2em
 	
 } 
 
@@ -129,7 +149,7 @@ main .inicio {
 	height: 100%;
 	display: flex;
 	flex-direction: space-between;
-	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(../imagens/fundo_inicio.jpg);
+	background: linear-gradient(45deg,rgba(50,205,50,0.8),rgba(0,0,205,0.75)),url(../imagens/fundo_inicio.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
@@ -148,28 +168,61 @@ main .inicio .inicio-esqueda{
 main .inicio .inicio-direita{
 	width: 50%;
 	height: 100%;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .inicio-texto{
-	/* padding-top: 100px; */
+	
+	margin: auto 0 auto 40px;
+	/* padding-top: 100px;
 	width: 80%;
 	font-size: 27px;
 	position: relative;
 	text-align: justify;
-	/* padding-left: 50px; */
+	padding-left: 50px;
 	text-transform: uppercase;
-	text-wrap: wrap;
+	text-wrap: wrap; */
 	
 }
 
-.desenho{
+.linha-1 {
 	padding-top: 100px;
-	padding-left: 120px;
-	 border-radius: 20px; 
-	 width: 80%;
-	 height: 80%;
+    font-size: 27px;
+    padding-left: 50px;
+	text-shadow: black 0.1em 0.1em 0.2em
+	
+}
+
+.linha-2 {
+	font-size: 75px;
+    font-weight: 500;
+    margin-left: -3px;
+    padding-left: 50px;
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.linha-3 {
+	font-size: 40px;
+    margin: 5px 0;
+    padding-left: 50px;
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.linha-3 span{
+	color: #8B0000;
+	text-shadow: black 0.1em 0.1em 0.2em
+    font-weight: 500;
+}
+
+
+
+.desenho{
+	 border-radius: 300px; 
+	 width: 65%;
+	 height: 65%;
+	opacity: 75%;
 	 
 	 
 }
@@ -187,21 +240,25 @@ main .sobre{
 	
 }
 
+/* section .title{
+	align: center;
+	color: green;
+}
+ */
 main .sobre .sobre-esquerda{
 	width: 50%;
 	height: 100%;
 	display: flex;
+	justify-content: center;
 	align-items: center;
-	/* margin-left: 110px; */
+	/* margin: auto; */
 }
 
 .sobre-foto{
-	/* padding-top: 100px; */
-	/* border-radius: 3600px; */
-	width: 75%;
-	height: 75%;
-	padding-left: 110px;
-	/* object-fit: cover; */
+	border-radius: 300px; 
+	 width: 65%;
+	 height: 65%;
+	margin-left: 110px;
 } 
 
 main .sobre .sobre-direita{
@@ -215,23 +272,31 @@ main .sobre .sobre-direita{
 }
 
 main .sobre .sobre-texto{
-	/* padding-top: 100px; */
 	width: 80%;
-	/* height: 40%; */
 	position: relative;
 	text-align: justify;
-	font-size: 1.5rem;
-	color: black;
-	/* padding-left: 50px; */
+	font-size: 2rem;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
 	text-wrap: wrap;
 }
 
+main .sobre .sobre-texto a{
+	text-decoration: none;
+	color: #00ff00;
+}
+
 footer{
-	height: 25px;
-	background-color: #000000;
-	color: rgb(255,255,255);
-	font-size: 1.4rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    background: #111;
+    padding: 8px 23px;
+    color: #fff;
+    text-align: center;
+	font-size: 1.2rem;
+}
+footer span a{
+    color: #00ff00;
+	text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
 }

@@ -48,10 +48,30 @@ position: absolute;
 }
 
 .logo{
-    font-size: 1.8rem;
-    letter-spacing: 0.4rem;
-    cursor: pointer;
-    
+	display: block; 
+	font-size: 1.8rem;
+	letter-spacing: 0.4rem;
+	cursor: pointer;
+	margin-top: 0;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+}
+
+.logo a {
+	color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+	text-decoration: none;
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.logo a span{
+    color: #00ff00;
+    transition: all 0.3s ease;
+}
+
+.barra-menu.sticky .logo a span{
+    color: #fff;
 }
 
 .menu-content .nav-list{
