@@ -232,7 +232,7 @@ main .sobre{
 	height: 100%;
 	display: flex;
 	flex-direction: space-around;
-	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(../imagens/fundo_sobre.jpg);
+	background: linear-gradient(210deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(../imagens/fundo_sobre.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
@@ -264,10 +264,17 @@ main .sobre .sobre-esquerda{
 main .sobre .sobre-direita{
 	width: 50%;
 	height: 100%;
-	/* position: absolute; */
-	display: flex;
+	display: block;
 	justify-content: center;
 	align-items: center;
+	padding-top: 100px;
+	
+}
+
+main .sobre .titulo {
+	font-size: 27px;
+	color: #00ff00;
+	text-shadow: black 0.1em 0.1em 0.2em;
 	
 }
 
@@ -279,12 +286,140 @@ main .sobre .sobre-texto{
 	color: white;
 	text-shadow: black 0.1em 0.1em 0.2em;
 	text-wrap: wrap;
+	padding-top: 50px;
 }
 
 main .sobre .sobre-texto a{
 	text-decoration: none;
 	color: #00ff00;
 }
+
+.sobre-btns {
+  display: flex;
+  width: 550px;
+  justify-content: space-between;
+}
+
+.sobre-btns a {
+  text-decoration: none;
+  color: #00ff00;
+  text-shadow: red 0.1em 0.1em 0.2em;
+  font-weight: bold;
+}
+
+/* .sobre-btns img {
+	background-color: #00ff00;
+	z-index: -1;
+} */
+
+.sobre-btn-curriculo,
+.sobre-btn-email,
+.sobre-btn-linkedin,
+.sobre-btn-github {
+  display: flex;
+  align-items: center;
+  padding: 3px 5px 5px;
+  justify-content: space-evenly;
+  width: 100px;
+  border-radius: 8px;
+  position: relative;
+  background-color: #121212;
+  margin-top: 1rem;
+  transition: 0.3s;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 1.5px;
+  height: 40px;
+}
+
+.sobre-btn-email::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: -2px;
+  border-radius: 9px;
+  background: linear-gradient(
+    -45deg,
+    rgba(147, 88, 247, 1),
+    rgba(16, 215, 226, 1)
+  );
+  background-size: 400%;
+  animation: move infinite forwards 4s;
+}
+
+.sobre-btn-curriculo:hover,
+.sobre-btn-email:hover,
+.sobre-btn-linkedin:hover,
+.sobre-btn-github:hover{
+  background-color: #272727;
+  text-shadow: 1px 1px 3px #00bbc5;
+}
+
+.sobre-btn-github::before,
+.sobre-btn-curriculo::before,
+.sobre-btn-linkedin::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: -2px;
+  border-radius: 9px;
+  background: linear-gradient(
+    150deg,
+    rgba(210, 64, 116, 1),
+    rgba(101, 24, 180, 1)
+  );
+  background-size: 400%;
+  animation: move infinite forwards 4s;
+}
+
+.sobre-btn-curriculo p,
+.sobre-btn-github p,
+.sobre-btn-github img {
+  padding: 9px 0 5px;
+}
+
+.sobre-btn-linkedin img {
+  margin-right: 5px;
+}
+
+.sobre-btn-curriculo p,
+.sobre-btn-curriculo img,
+.sobre-btn-email p,
+.sobre-btn-email img,
+.sobre-btn-linkedin p,
+.sobre-btn-linkedin img,
+.sobre-btn-github p,
+.sobre-btn-github img {
+  padding: 9px 0 5px;
+}
+
+.sobre-btn-linkedin img,
+.sobre-btn-github img,
+.sobre-btn-email img,
+.sobre-btn-curriculo img {
+  width: 22px;
+}
+
+
+.sobre-btns {
+  margin-top: 2rem;
+}
+
+
+/* .sobre-mim__foto img {
+  border-left: 5px solid #00d2df;
+  filter: opacity(55%);
+  transition: 0.4s;
+  width: 80%;
+}
+ */
+/* .sobre-mim__foto img:hover {
+  filter: opacity(70%);
+  border-left: 5px solid rgba(101, 24, 180, 1);
+}
+ */
+
+
 
 footer{
     background: #111;
