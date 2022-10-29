@@ -78,7 +78,7 @@ position: absolute;
 }
 
 .logo a span{
-    color: #00ff00;
+    color: #00FF7F;
     transition: all 0.3s ease;
 }
 
@@ -211,8 +211,10 @@ main .inicio .inicio-direita{
 }
 
 .linha-3 span{
-	color: #8B0000;
-	text-shadow: black 0.1em 0.1em 0.2em
+	color: #00008B;
+	-webkit-text-stroke: 1px #808000;
+      text-stroke: 2px black;
+	/* text-shadow: black 0.1em 0.1em 0.2em */
     font-weight: 500;
 }
 
@@ -232,7 +234,7 @@ main .sobre{
 	height: 100%;
 	display: flex;
 	flex-direction: space-around;
-	background: linear-gradient(210deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(../imagens/fundo_sobre.jpg);
+	background: linear-gradient(45deg,rgba(255,140,0,0.75),rgba(0,0,128,0.75)),url(../imagens/fundo_sobre.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
@@ -273,7 +275,7 @@ main .sobre .sobre-direita{
 
 main .sobre .titulo {
 	font-size: 27px;
-	color: #00ff00;
+	color: #00FF7F;
 	text-shadow: black 0.1em 0.1em 0.2em;
 	
 }
@@ -291,14 +293,19 @@ main .sobre .sobre-texto{
 
 main .sobre .sobre-texto a{
 	text-decoration: none;
-	color: #00ff00;
+	color: #00FF7F;
 }
 
 .sobre-btns {
   display: flex;
   width: 550px;
   justify-content: space-between;
+  
 }
+
+
+
+
 
 .sobre-btns a {
   text-decoration: none;
@@ -330,6 +337,8 @@ main .sobre .sobre-texto a{
   font-size: 0.95rem;
   letter-spacing: 1.5px;
   height: 40px;
+border: 2px solid #00FF7F;
+
 }
 
 .sobre-btn-email::before {
