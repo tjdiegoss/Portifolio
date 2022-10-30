@@ -213,9 +213,8 @@ main .inicio .inicio-direita{
 .linha-3 span{
 	color: #00008B;
 	-webkit-text-stroke: 1px #808000;
-      text-stroke: 2px black;
-	/* text-shadow: black 0.1em 0.1em 0.2em */
-    font-weight: 500;
+     text-stroke: 2px black;
+	 font-weight: 500;
 }
 
 
@@ -227,6 +226,82 @@ main .inicio .inicio-direita{
 	opacity: 75%;
 	 
 	 
+}
+
+[data-anime="js-scroll"] {
+  opacity: 0;
+  transform: translate3d(0, -30px, 0);
+  transition: 0.5s;
+}
+
+[data-anime="js-scroll"].animation {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.scroll-content{
+	display:flex;
+	width: 100%;
+	align-items: center;
+}
+
+.scroll{
+  width: 200px;
+  position: absolute;
+  bottom: 1rem;
+  /* padding-left: 200px; */
+  text-align: center;
+  font-size: 22px;  
+  letter-spacing: 2px;
+  border-radius: 8px;
+  background-color: #121212;
+  border: 2px solid #00FF7F;
+  
+  
+}
+
+.scroll p{
+  padding: 1rem 0;
+  display: inline-block;
+  font-weight: bold;
+  color: grey;
+  -webkit-text-stroke: 1px black;
+     text-stroke: 2px black;
+}
+
+.scroll img {
+  animation: scroll-down 3s infinite forwards;
+}
+
+@keyframes scroll-down {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -15px, 0);
+  }
+  30% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 10px, 0);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #1b1b1b;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00d2df;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #00bbc5;
 }
 
 main .sobre{
@@ -242,11 +317,7 @@ main .sobre{
 	
 }
 
-/* section .title{
-	align: center;
-	color: green;
-}
- */
+
 main .sobre .sobre-esquerda{
 	width: 50%;
 	height: 100%;
@@ -261,6 +332,12 @@ main .sobre .sobre-esquerda{
 	 width: 65%;
 	 height: 65%;
 	margin-left: 110px;
+	transition: 0.4s;
+}
+
+.sobre-foto img:hover {
+  filter: opacity(70%);
+  border-left: 5px solid rgba(101, 24, 180, 1);
 } 
 
 main .sobre .sobre-direita{
@@ -418,7 +495,7 @@ border: 2px solid #00FF7F;
 /* .sobre-mim__foto img {
   border-left: 5px solid #00d2df;
   filter: opacity(55%);
-  transition: 0.4s;
+  
   width: 80%;
 }
  */
@@ -443,4 +520,5 @@ footer span a{
 }
 footer span a:hover{
     text-decoration: underline;
+	color: rgba(101, 24, 180, 1)
 }
