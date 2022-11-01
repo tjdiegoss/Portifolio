@@ -28,13 +28,13 @@ body{
 
 header{
     width: 100vw;
-height: 7vh;
-background:  rgba(22,22,22,0.2);
-padding: 20px;
-align-items: center;
-flex-wrap: rap;
-position: absolute;
-
+	height: 7vh;
+	background:  rgba(22,22,22,0.2);
+	padding: 20px;
+	align-items: center;
+	flex-wrap: rap;
+	position: absolute;
+	overflow-y: hidden;
 	
 }
 
@@ -105,7 +105,30 @@ position: absolute;
     width: 100%;
 }
 
-/*Centro - conteúdo principal*/
+/* Submenus */
+
+.sub-menu {
+	/* background:  black; */
+	/* position: absolute; */
+	height: 100%;
+}
+
+.header-menu ul ul {
+	display: none;
+	transition: all 0.5s ease;
+	list-style: none;
+		
+}
+
+
+
+.header-menu ul li:hover > ul{
+	display: block;
+	position: absolute;
+	transition-duration: 0.5s;
+	/* padding-top: 16vh; */
+	
+}
 
 
 
