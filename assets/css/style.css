@@ -223,17 +223,6 @@ main .inicio .inicio-direita{
 	 
 }
 
-[data-anime="js-scroll"] {
-  opacity: 0;
-  transform: translate3d(0, -30px, 0);
-  transition: 0.5s;
-}
-
-[data-anime="js-scroll"].animation {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-}
-
 
 .scroll{
   width: 100%;
@@ -321,8 +310,8 @@ main .sobre .sobre-esquerda{
 	border-radius: 300px; 
 	 width: 65%;
 	 height: 65%;
-	margin-left: 110px;
-	transition: 0.4s;
+	/* margin-left: 110px; */
+	/* transition: 0.4s; */
 	border: 2px solid #00FF7F;
 }
 
@@ -494,3 +483,43 @@ footer span a:hover{
     text-decoration: underline;
 	color: rgba(101, 24, 180, 1)
 }
+
+/* animando */
+
+[data-anime] {
+  opacity: 1;
+  transition: .3s;
+}
+
+[data-anime="left"]{
+	transform: translate3d(-50px, 0px ,0px);
+}
+
+/* [data-anime="right"]{
+	transform: translate3d(50px, 0 ,0);
+}
+ */
+/* [data-anime="left"]{
+	opacity: 1; 
+	transform: translate3d(110px,0px,0px);
+} */
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(110px, 0px ,0px);
+  /* transition: transform 0.8s, opacity 0.8s; */
+}
+
+/* .titulo {
+  transform: translate3d(0, -20px, 0); 
+}
+.up {
+  transform: translate3d(0, 20px, 0); 
+}
+.right {
+  transform: translate3d(20px, 0, 0); 
+}
+.sobre-foto {
+  transform: translate3d(-20px, 0, 0); 
+} */
+
