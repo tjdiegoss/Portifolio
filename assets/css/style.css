@@ -310,8 +310,8 @@ main .sobre .sobre-esquerda{
 	border-radius: 300px; 
 	 width: 65%;
 	 height: 65%;
-	/* margin-left: 110px; */
-	/* transition: 0.4s; */
+	margin-left: 110px;
+	transition: 0.4s;
 	border: 2px solid #00FF7F;
 }
 
@@ -333,6 +333,7 @@ main .sobre .titulo {
 	font-size: 27px;
 	color: #00FF7F;
 	text-shadow: black 0.1em 0.1em 0.2em;
+	transition: 0.8s;
 	
 }
 
@@ -345,6 +346,7 @@ main .sobre .sobre-texto{
 	text-shadow: black 0.1em 0.1em 0.2em;
 	text-wrap: wrap;
 	padding-top: 50px;
+	transition: 1.2s;
 }
 
 main .sobre .sobre-texto a{
@@ -356,7 +358,7 @@ main .sobre .sobre-texto a{
   display: flex;
   width: 550px;
   justify-content: space-between;
-  
+  margin-top: 2rem;
 }
 
 
@@ -375,21 +377,21 @@ main .sobre .sobre-texto a{
 .sobre-btn-email,
 .sobre-btn-linkedin,
 .sobre-btn-github {
-  display: flex;
-  align-items: center;
-  padding: 3px 5px 5px;
-  justify-content: space-evenly;
-  width: 100px;
-  border-radius: 8px;
-  position: relative;
-  background-color: #121212;
-  margin-top: 1rem;
-  transition: 0.3s;
-  font-weight: 600;
-  font-size: 0.95rem;
-  letter-spacing: 1.5px;
-  height: 40px;
-border: 2px solid #00FF7F;
+	display: flex;
+	align-items: center;
+	padding: 3px 5px 5px;
+	justify-content: space-evenly;
+	width: 100px;
+	border-radius: 8px;
+	position: relative;
+	background-color: #121212;
+	margin-top: 1rem;
+	/* transition: 0.3s; */
+	font-weight: 600;
+	font-size: 0.95rem;
+	letter-spacing: 1.5px;
+	height: 40px;
+	border: 2px solid #00FF7F;
 
 }
 
@@ -405,7 +407,7 @@ border: 2px solid #00FF7F;
     rgba(16, 215, 226, 1)
   );
   background-size: 400%;
-  animation: move infinite forwards 4s;
+  /* animation: move infinite forwards 4s; */
 }
 
 .sobre-btn-curriculo:hover,
@@ -430,7 +432,7 @@ border: 2px solid #00FF7F;
     rgba(101, 24, 180, 1)
   );
   background-size: 400%;
-  animation: move infinite forwards 4s;
+  /* animation: move infinite forwards 4s; */
 }
 
 .sobre-btn-curriculo p,
@@ -462,12 +464,6 @@ border: 2px solid #00FF7F;
 }
 
 
-.sobre-btns {
-  margin-top: 2rem;
-}
-
-
-
 footer{
     background: #111;
     padding: 8px 23px;
@@ -484,42 +480,60 @@ footer span a:hover{
 	color: rgba(101, 24, 180, 1)
 }
 
-/* animando */
+/* Animação */
 
 [data-anime] {
-  opacity: 1;
-  transition: .3s;
+  opacity: 0;
+  
 }
 
 [data-anime="left"]{
-	transform: translate3d(-50px, 0px ,0px);
+	transform: translate3d(-100px, 0px ,0px);
+	
 }
 
-/* [data-anime="right"]{
-	transform: translate3d(50px, 0 ,0);
+[data-anime="right"] {
+  transform: translate3d(100px, 0px, 0px); 
 }
- */
-/* [data-anime="left"]{
-	opacity: 1; 
-	transform: translate3d(110px,0px,0px);
-} */
+
+[data-anime="down"] {
+  transform: translate3d(0px, -50px, 0px); 
+}
+
+[data-anime="up1"] {
+  transform: translate3d(0px, 50px, 0px);
+  transition: 1.4s;
+  opacity: 1;
+
+}
+
+[data-anime="up2"] {
+  transform: translate3d(0px, 50px, 0px);
+  transition: 1.6s;
+  opacity: 1;
+
+}
+
+[data-anime="up3"] {
+  transform: translate3d(0px, 50px, 0px);
+  transition: 1.8s;
+  opacity: 1;
+
+}
+
+[data-anime="up4"] {
+  transform: translate3d(0px, 50px, 0px);
+  transition: 2.0s;
+  opacity: 1;
+
+}
+
 
 [data-anime].animate {
   opacity: 1;
-  transform: translate3d(110px, 0px ,0px);
-  /* transition: transform 0.8s, opacity 0.8s; */
+  transform: translate3d(0px, 0px ,0px);
+
 }
 
-/* .titulo {
-  transform: translate3d(0, -20px, 0); 
-}
-.up {
-  transform: translate3d(0, 20px, 0); 
-}
-.right {
-  transform: translate3d(20px, 0, 0); 
-}
-.sobre-foto {
-  transform: translate3d(-20px, 0, 0); 
-} */
+
 
