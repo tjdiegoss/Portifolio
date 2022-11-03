@@ -500,33 +500,6 @@ footer span a:hover{
   transform: translate3d(0px, -50px, 0px); 
 }
 
-[data-anime="up1"] {
-  transform: translate3d(0px, 50px, 0px);
-  transition: 1.4s;
-  opacity: 1;
-
-}
-
-[data-anime="up2"] {
-  transform: translate3d(0px, 50px, 0px);
-  transition: 1.6s;
-  opacity: 1;
-
-}
-
-[data-anime="up3"] {
-  transform: translate3d(0px, 50px, 0px);
-  transition: 1.8s;
-  opacity: 1;
-
-}
-
-[data-anime="up4"] {
-  transform: translate3d(0px, 50px, 0px);
-  transition: 2.0s;
-  opacity: 1;
-
-}
 
 
 [data-anime].animate {
@@ -535,5 +508,39 @@ footer span a:hover{
 
 }
 
+.sobre-btn-curriculo {
+	animation: btn-anime 1.4s ease-in-out forwards;
+}
 
+.sobre-btn-linkedin {
+	animation: btn-anime 2.0s ease-in-out forwards;
+}
+
+.sobre-btn-github {
+	animation: btn-anime 2.4s ease-in-out forwards;
+}
+
+.sobre-btn-email {
+	animation: btn-anime 2.6s ease-in-out forwards;
+} 
+
+
+
+@keyframes btn-anime{
+	0%{
+		transform: translate3d(0px, 50px, 0px);
+		opacity: 0;		
+		
+	}
+	
+	25%{
+		opacity: 0.5;
+	}
+	50%{
+		opacity: 0.75;
+	}
+	100%{
+		opacity: 1;
+	}
+}
 
