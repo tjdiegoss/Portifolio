@@ -13,7 +13,9 @@
  ---  
   
  ## Projeto   
-    
+  
+  <p align="center"> <image title="" aria-hidden="true" src=".github/tela_inicial.gif" width="400px"/></p>
+<p align="center">GIF da tela inicial do projeto na versão para desktop </p>  
   
  --- 
   
