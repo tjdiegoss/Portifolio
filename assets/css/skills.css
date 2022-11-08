@@ -27,7 +27,7 @@ body{
 	overflow-x: hidden;
     width: 100%;
     height: 100%;
-	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(../imagens/fundo_skills.jpg);
+	background: linear-gradient(45deg,rgba(75,0,130,0.75),rgba(218,165,32,0.75)),url(../imagens/fundo_skills.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
@@ -37,10 +37,125 @@ body{
 }
 
 header {
-	width: 100%;
+	width: 100vw;
 	height: 7vh;
-	position: absolute;
+	/* position: absolute; */
 	/* background: black; */
 	
 	
+}
+
+main {
+	width: 100vw;
+	height: 93vh;
+	color: black;
+}
+
+.container {
+	display: flex;
+}
+
+.topo {
+	width: 100vw;
+	height: 20vh;
+	text-align: center;
+	align-items: center;
+	
+	
+}
+
+.topo h1 {
+	font-size: 60px;
+}
+
+.esquerda {
+	width: 50vw;
+	height: 80vh;
+		
+}
+
+.esquerda .skill-cards {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 37px;
+    max-width: 55%;
+}
+
+.esquerda .skill-cards article {
+	width: 106px;
+	height:106px;
+	display: block;
+	background-color: grey;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	padding:32px;
+	margin:8px;
+	flex-basis:calc(33% - 20px);
+	flex-grow:1;
+	border:1px solid #040405;
+	transition:1s all ease;
+	
+}
+
+.esquerda .skill-cards article:hover {
+	border:1px solid #00FF7F;
+	transform: scale(1.05);
+	background-color: white;
+	
+}
+
+.esquerda .skill-cards article span {
+	display: none;
+	background-color: black;
+	color: white;
+}
+
+
+
+.direita {
+	width: 50vw;
+	height: 80vh;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+.terminal {
+border-radius: 20px;
+background-color: black;
+  background-image: radial-gradient(
+    rgba(0, 150, 0, 0.75), black 120%
+  );
+  height: 300px;
+  width: 500px;
+  margin: 0;
+  overflow: hidden;
+  padding: 2rem;
+  color: white;
+  font: 1.3rem Inconsolata, monospace;
+  text-shadow: 0 0 5px #C8C8C8;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(black, 0.15),
+      rgba(black, 0.15) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+    pointer-events: none;
+  }
+}
+::selection {
+  background: #0080FF;
+  text-shadow: none;
+}
+pre {
+  margin: 0;
 }
