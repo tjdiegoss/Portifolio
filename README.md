@@ -2,12 +2,12 @@
  
  # Indice   
   
- - [Projeto](#projeto)  
- - [Tecnologias Utilizadas](#tecnologias-utilizadas)  
- - [Screenshots](#screenshots)  
- - [Como baixar o projeto](#como-baixar-o-projeto)  
- - [Como contribuir](#como-contribuir)  
- - [Licença](#licença) 
+ - [Projeto](#projeto)  
+ - [Tecnologias Utilizadas](#tecnologias-utilizadas)  
+ - [Screenshots](#screenshots)  
+ - [Como baixar o projeto](#como-baixar-o-projeto)  
+ - [Como contribuir](#como-contribuir)  
+ - [Licença](#licença)  
   
   
  ---  
