@@ -75,21 +75,24 @@ main {
 }
 
 .esquerda .skill-cards {
-	display: flex;
-    justify-content: center;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+    /* justify-content: center; */
     flex-wrap: wrap;
     gap: 37px;
-    max-width: 55%;
+    max-width: 55% ;
 }
 
 .esquerda .skill-cards article {
 	width: 106px;
 	height:106px;
-	display: block;
+	display: flex;
 	background-color: grey;
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+	background-repeat: no-repeat;
+    background-position: center;
 	padding:32px;
 	margin:8px;
 	flex-basis:calc(33% - 20px);
@@ -97,13 +100,16 @@ main {
 	border:1px solid #040405;
 	transition:1s all ease;
 	
+	
+
+	
 }
 
 .esquerda .skill-cards article:hover {
 	border:1px solid #00FF7F;
 	transform: scale(1.05);
 	background-color: white;
-	
+		
 }
 
 .esquerda .skill-cards article span {
@@ -113,7 +119,54 @@ main {
 }
 
 
+.skill-cards:hover .skill-icones {
+    opacity: 0;
+}
 
+ .html:hover {
+	 background-image: url(../imagens/html.svg);
+	 image-width: 60px;
+	 image-height: 60px;
+	 
+ }
+
+.css:hover {
+	 background-image: url(../imagens/css.svg);
+	 
+ }
+ 
+ .javascript {
+	 background-image: url(../imagens/js.svg);
+	 
+ }
+ 
+ .git {
+	 background-image: url(../imagens/git.svg);
+	 
+ }
+ 
+ .github {
+	 background-image: url(../imagens/github.svg);
+	 
+ }
+ 
+ .java {
+	 background-image: url(../imagens/java.svg);
+	 
+ }
+ 
+ .sql {
+	 background-image: url(../imagens/sql.svg);
+	 
+ }
+ 
+ .none {
+	 background-image: url(../imagens/none.svg);
+	 
+ }
+ 
+ 
+ 
 .direita {
 	width: 50vw;
 	height: 80vh;
