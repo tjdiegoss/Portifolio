@@ -1,4 +1,4 @@
-const skills = document.querySelectorAll('.skill-cards');
+const skills = document.querySelectorAll('.card-model');
 const descricao = document.querySelector('.texto');
 const sobreSkill = [
                     '<p>HTML</p> <br> <p>É uma linguagem de marcação utilizada na construção de páginas na Web.</p> <br>',

@@ -66,6 +66,9 @@ main {
 
 .topo h1 {
 	font-size: 60px;
+	color: #00FF7F;
+	text-shadow: black 0.1em 0.1em 0.2em
+	
 }
 
 .esquerda {
@@ -105,39 +108,50 @@ main {
 	
 }
 
-.esquerda .skill-cards article:hover {
+.skill-cards article:hover {
 	border:1px solid #00FF7F;
 	transform: scale(1.05);
 	background-color: white;
+	
+}
+
+article .skill-icones {
+    transition: ease-in-out 0.3s;
+}
+
+article:hover .skill-icones {
+	opacity: 0;
+	
 		
 }
 
-.esquerda .skill-cards article span {
+
+.skill-cards article span {
 	display: none;
 	background-color: black;
 	color: white;
-}
+} 
 
 
-.skill-cards:hover .skill-icones {
+/* .skill-cards:hover .skill-icones {
     opacity: 0;
-}
+} */
 
- .html:hover {
-	 background-image: url(../imagens/html.svg);
-	 image-width: 60px;
-	 image-height: 60px;
+ .html {
+	 background-image: url(../imagens/html.png);
+	 
+	 
 	 
  }
 
-.css:hover {
+.css {
 	 background-image: url(../imagens/css.svg);
 	 
  }
  
  .javascript {
-	 background-image: url(../imagens/js.svg);
-	 
+	 background-image: url(../imagens/jss.png);
+	 background-size: 75px 75px;
  }
  
  .git {
@@ -146,22 +160,23 @@ main {
  }
  
  .github {
-	 background-image: url(../imagens/github.svg);
+	 background-image: url(../imagens/esse.png);
 	 
  }
  
  .java {
-	 background-image: url(../imagens/java.svg);
+	 background-image: url(../imagens/java2.svg);
 	 
  }
  
  .sql {
-	 background-image: url(../imagens/sql.svg);
+	 background-image: url(../imagens/sql.png);
+	  background-size: 70px 75px;
 	 
  }
  
  .none {
-	 background-image: url(../imagens/none.svg);
+	 background-image: url(../imagens/css.svg);
 	 
  }
  
