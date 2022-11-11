@@ -27,7 +27,7 @@ body{
 	overflow-x: hidden;
     width: 100%;
     height: 100%;
-	background: linear-gradient(45deg,rgba(75,0,130,0.75),rgba(218,165,32,0.75)),url(../imagens/fundo_skills.jpg);
+	background: linear-gradient(45deg,rgba(0,0,128,0.75),rgba(218,165,32,0.75)),url(../imagens/fundo_skills.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
@@ -100,7 +100,7 @@ main {
 	margin:8px;
 	flex-basis:calc(33% - 20px);
 	flex-grow:1;
-	border:1px solid #040405;
+	border:1px solid #00BFFF;
 	transition:1s all ease;
 	
 	
@@ -109,7 +109,7 @@ main {
 }
 
 .skill-cards article:hover {
-	border:1px solid #00FF7F;
+	border:2px solid #FF00FF;
 	transform: scale(1.05);
 	background-color: white;
 	
@@ -150,9 +150,9 @@ article:hover .skill-icones {
  }
  
  .javascript {
-	 background-image: url(../imagens/jss.png);
+	 background-image: url(../imagens/javascript.png);
 	 background-size: 75px 75px;
- }
+}
  
  .git {
 	 background-image: url(../imagens/git.svg);
@@ -160,8 +160,8 @@ article:hover .skill-icones {
  }
  
  .github {
-	 background-image: url(../imagens/esse.png);
-	 
+	 background-image: url(../imagens/esse.svg);
+	 background-size: 79px 79px;
  }
  
  .java {
@@ -171,13 +171,13 @@ article:hover .skill-icones {
  
  .sql {
 	 background-image: url(../imagens/sql.png);
-	  background-size: 70px 75px;
+	  background-size: 62px 75px;
 	 
  }
  
  .none {
-	 background-image: url(../imagens/css.svg);
-	 
+	 background-image: url(../imagens/mysql.png);
+	 background-size: 73px 74px;
  }
  
  
