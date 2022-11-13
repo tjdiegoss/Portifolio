@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/*Zerando o CSS*/
+
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    
+
+}
+
+footer{
+    background: #111;
+    padding: 8px 23px;
+    color: #fff;
+    text-align: center;
+	font-size: 1rem;
+	/* position: relative; */
+}
+footer span a{
+    color: #00ff00;
+	text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+	color: rgba(101, 24, 180, 1)
+}
