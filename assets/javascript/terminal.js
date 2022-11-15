@@ -3,20 +3,9 @@ var typed = new Typed(".linha-1", {
 		 + "$> Você está na sessão de Habilidades!<br>"+ 
 		 "$>..<br>"+
 		 "$>..<br>"+
-		 "$>..<br>"
+		 "$> Passe o mouse por cima de uma habilidade para ler a descrição<br>"
 		 ],
-         typeSpeed:10,
+         typeSpeed:20,
          
      });
 	 
-	 
-/* var typed = new Typed2(".texto", {
-         strings:["$> Bem-vindo(a) ao meu Portfólio! (v1.0.0)<br> $> 13/11/2022, 05:35:52 P.M."
-		 + "$> Você está na sessão de Habilidades!<br>"+ 
-		 "$>..<br>"+
-		 "$>..<br>"+
-		 "$>..<br>"+
-		 "$>..<br>"],
-         typeSpeed:10,
-         
-     }); */
