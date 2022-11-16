@@ -27,7 +27,7 @@ body{
 	overflow-x: hidden;
     width: 100vw;
     height: 100vh;
-	background: linear-gradient(45deg,rgba(0,0,128,0.75),rgba(218,165,32,0.75)),url(../imagens/fundo_skills.jpg);
+	background: linear-gradient(45deg,rgba(47,79,79,0.75),rgba(0,128,128,0.75)),url(../imagens/fundo_skills.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
@@ -101,7 +101,7 @@ main {
 	margin:8px;
 	flex-basis:calc(33% - 20px);
 	flex-grow:1;
-	border:1px solid #00BFFF;
+	border:2px solid black;
 	transition:1s all ease;
 	
 	
@@ -110,7 +110,7 @@ main {
 }
 
 .skill-cards article:hover {
-	border:2px solid #FF00FF;
+	border:2px solid #00BFFF;
 	transform: scale(1.05);
 	background-color: white;
 	
@@ -192,18 +192,17 @@ article:hover .skill-icones {
 	transition: 0.8s;
 	border-radius: 20px;
 	background-color: black;
-	background-image: radial-gradient(
-    rgba(0, 150, 0, 0.75), black 120%
-  );
-  height: 300px;
-  width: 500px;
-  margin: 0;
-  overflow: hidden;
-  padding: 2rem;
-  color: white;
-  font: 1.3rem Inconsolata, monospace;
-  text-shadow: 0 0 5px #C8C8C8;
-  &::after {
+	background-image: radial-gradient(rgba(0, 150, 0, 0.75), black 120%);
+	border:2px solid #C0C0C0;
+	height: 300px;
+	width: 500px;
+	margin: 0;
+	overflow: hidden;
+	padding: 2rem;
+	color: white;
+	font: 1.3rem Inconsolata, monospace;
+	text-shadow: 0 0 5px #C8C8C8;
+	&::after {
     content: "";
     position: absolute;
     top: 0;

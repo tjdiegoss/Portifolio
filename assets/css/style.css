@@ -491,6 +491,10 @@ footer span a:hover{
   transform: translate3d(0px, -50px, 0px); 
 }
 
+[data-anime="up"] {
+  transform: translate3d(0px, -50px, 0px); 
+}
+
 
 
 [data-anime].animate {
