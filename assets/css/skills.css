@@ -101,7 +101,7 @@ main {
 	margin:8px;
 	flex-basis:calc(33% - 20px);
 	flex-grow:1;
-	border:2px solid black;
+	border:2px solid #696969;
 	transition:1s all ease;
 	
 	
