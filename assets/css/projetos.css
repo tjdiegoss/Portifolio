@@ -31,7 +31,7 @@ body{
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 	
   
 }
@@ -51,12 +51,19 @@ header {
     padding-top: 93px;
 }
 
+.titulo {
+	font-size: 60px;
+	color: #00FF7F;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	transition: 0.8s;
+}
+
 .projetos h2, .projetos a {
     text-align: center;
 }
 
 .projetos h2 {
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 
 button {
@@ -64,7 +71,7 @@ button {
     border-radius: 25px;
     cursor: pointer;
     color: white;
-    background-color: #00FF00;
+    background-color: #696969;
     border: none;
     transition: ease-in-out 0.3s;
 }
@@ -73,22 +80,31 @@ button:hover {
     background-color: #00FF7F;
 }
 
-.github-link {
+.ver-mais {
     margin: 0 auto;
-    padding-top: 35px;
+    padding-top: 95px;
     padding-bottom: 93px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     gap: 35px;
+	/* border: 2px solid #00FF7F; */
 }
 
 .projetos a {
     display: inline;
 }
 
-.pro {
+.card-container{
+	background: rgba(22,22,22,0.2);
+	border-radius: 20px;
+	width: 40vw;
+	
+	justify-content: center;
+}
+
+.card {
     background-color: #C4C4C4;
     height: 195px;
     width: 310px;
@@ -99,20 +115,24 @@ button:hover {
     cursor: pointer;
     overflow: hidden;
     transition: ease-in-out 0.3s;
+	border: 2px solid #00FF7F;
+	padding:32px;
+	margin:8px;
+	
 }
 
-.pro div p {
+.card div p {
     font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
-    color: #C4C4C4;
+    color: black;
 }
 
-.pro:hover {
+.card:hover {
     letter-spacing: 5px;
 	transform: scale(1.2);
 }
 
-.pro div {
+.card div {
     background-color: #00FF7F;
     width: 1000px;
     text-align: center;
@@ -126,10 +146,71 @@ button:hover {
     transition: 1000ms;
 }
 
-.projetos-itens {
+
+
+.projetos-cards {
     display: flex;
     flex-wrap: wrap;
     gap: 29.5px;
     width: 100%;
     justify-content: center;
+	
+}
+
+.tecnologias {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+}
+
+.card-tec {
+	padding: 5px 15px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.card-tec.html {
+    background-color: rgba(255, 111, 0, 0.25);
+	border: 2px solid #FF6D00;
+    border-radius: 10px;
+}
+
+.card-tec.css {
+    border: 2px solid #039BE5; 
+	border-radius: 10px;	
+    background-color: rgba(3, 155, 229,0.25);
+}
+
+.card-tec.javascript {
+    border: 2px solid #FFD600;
+	border-radius: 10px;    
+    background-color: rgba(255, 214, 0,0.25);
+}
+
+.card-links {
+    font-size: 2.5rem;
+    text-align: end;
+    padding-top: 2rem;
+}
+
+.card-links a{
+    margin-right: 2rem;
+    cursor: pointer;
+    color: var(--second);
+}
+
+.card-links a:hover{
+    color: #32F484;
+}
+
+
+footer {
+	width: 100vw;
+	height: 7vh;
+		
 }
