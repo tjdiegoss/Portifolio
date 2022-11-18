@@ -41,6 +41,9 @@
 
 <p align="center"> <image title="" aria-hidden="true" src=".github/screenshot_skills.gif" width="400px"/></p>
 <p align="center"> Sessão Skills </p>  
+
+<p align="center"> <image title="" aria-hidden="true" src=".github/screenshot_projetos.png" width="400px"/></p>
+<p align="center"> Sessão Projetos </p>  
   
  ---  
   
