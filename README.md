@@ -23,11 +23,11 @@
   
  Esse projeto foi desenvolvido utilizando as seguintes tecnologias: 
   
- - [HTML](http://www.w3.org/html) 
+ - [HTML](http://www.w3.org/html)  
   
- - [CSS](http://www.w3.org/css) 
+ - [CSS](http://www.w3.org/css)  
   
- - [JavaScript](http://developer.mozilla.org) 
+ - [JavaScript](http://developer.mozilla.org)  
   
  ---  
   
