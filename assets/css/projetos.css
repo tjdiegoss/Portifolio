@@ -100,7 +100,7 @@ button:hover {
 	background: rgba(22,22,22,0.2);
 	border-radius: 20px;
 	width: 40vw;
-	
+	transition: ease-in-out 0.8s;
 	justify-content: center;
 }
 
@@ -195,8 +195,9 @@ button:hover {
 	flex-wrap: wrap;
 	align-items: center;
 	text-align: center;
-	cursor: pointer;
+	
 }
+
 
 .card-tec {
 	padding: 5px 15px;
@@ -204,6 +205,14 @@ button:hover {
     margin-right: 20px;
     margin-top: 20px;
     font-size: 1.5rem;
+	cursor: pointer;
+	transition: 0.7s;
+	
+}
+
+.card-tec:hover {
+    transform: rotate(-360deg);
+	background: #00FF7F;
 }
 
 .card-tec.html {
@@ -245,4 +254,36 @@ footer {
 	width: 100vw;
 	height: 7vh;
 		
+}
+
+/* Animação */
+
+[data-anime] {
+  opacity: 0;
+  
+}
+
+[data-anime="left"]{
+	transform: translate3d(-100px, 0px ,0px);
+	
+}
+
+[data-anime="right"] {
+  transform: translate3d(100px, 0px, 0px); 
+}
+
+[data-anime="down"] {
+  transform: translate3d(0px, -50px, 0px); 
+}
+
+[data-anime="up"] {
+  transform: translate3d(0px, 50px, 0px); 
+}
+
+
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px ,0px);
+
 }
