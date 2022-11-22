@@ -14,7 +14,7 @@
   
  ## Projeto   
   
-  <p align="center"> <image title="" aria-hidden="true" src=".github/tela_inicial.gif" width="400px"/></p>
+  <p align="center"> <image title="" aria-hidden="true" src=".github/tela_inicial.gif" /></p>
 <p align="center">GIF da tela inicial do projeto na versão para desktop </p>  
   
  --- 
@@ -33,16 +33,16 @@
   
  ## Screenshots    
   
-  <p align="center"> <image title="" aria-hidden="true" src=".github/screenshot_home.png" width="400px"/></p>
+  <p align="center"> <image title="" aria-hidden="true" src=".github/screenshot_home.png" /></p>
 <p align="center"> Landingpage </p>  
 
-<p align="center"> <image title="" aria-hidden="true" src=".github/screenshot_sobre.png" width="400px"/></p>
+<p align="center"> <image title="" aria-hidden="true" src=".github/screenshot_sobre.png" /></p>
 <p align="center"> Sessão Sobre </p>  
 
-<p align="center"> <image title="" aria-hidden="true" src=".github/screenshot_skills.gif" width="400px"/></p>
+<p align="center"> <image title="" aria-hidden="true" src=".github/screenshot_skills.gif" /></p>
 <p align="center"> Sessão Skills </p>  
 
-<p align="center"> <image title="" aria-hidden="true" src=".github/screenshot_projetos.png" width="400px"/></p>
+<p align="center"> <image title="" aria-hidden="true" src=".github/screenshot_projetos.png" /></p>
 <p align="center"> Sessão Projetos </p>  
   
  ---  

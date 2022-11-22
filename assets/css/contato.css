@@ -44,3 +44,282 @@ header {
 	
 	
 }
+
+main {
+	/* width: 100vw;
+	height: 86vh; */
+	color: black;
+	padding-top: 40px;
+}
+
+.topo {
+	/* padding-top: 50px; */
+	width: 100vw;
+	height: 20vh;
+	
+	text-align: center;
+	padding-top: 50px;
+}
+
+.topo h1 {
+	font-size: 60px;
+	color: #00FF7F;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	transition: 0.8s;
+}
+
+.main-content {
+	/* padding-top: 50px; */
+	width: 100vw;
+	height: 80vh;
+	
+	display: flex;
+	flex-direction: space-around;
+	text-align: center;
+}
+
+.left {
+	padding-top: 50px;
+	width: 50vw;
+	height: 100vh;
+	
+}
+
+.right {
+	padding-top: 50px;
+	width: 50vw;
+	height: 100vh;
+	
+}
+
+footer {
+	width: 100vw;
+	height: 7vh;
+		
+}
+
+.left{
+   /*  color: white; */
+	font-size: 1.8rem;
+	align-items: center;
+	text-align: center;
+	
+}
+.left .sub-titulo{
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-wrap: wrap;
+	color: #00FF7F;
+	
+	
+}
+
+.left p{
+	text-align: center;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-wrap: wrap;
+	color: white;
+	font-size: 1.6rem;
+	
+	
+}
+
+.contato-esquerda-content{
+    width: calc(50% - 30px);
+	top: 10px;
+	align-items: center;
+	text-align: center;
+}
+.contato-esquerda{
+    align-items: center;
+	gap: 10px;
+}
+
+.contato-esquerda .text{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contato-esquerda .icones{
+    display: grid;
+	grid-template-columns: auto auto auto auto;
+	flex-wrap: wrap;
+    gap: 37px;
+	margin-top: 20px;
+}
+.contato-esquerda .card{
+    display: block;
+    height: 65px;
+	width: 80px;
+    align-items: center;
+	
+}
+.contato-direita .card .info{
+    margin-left: 30px;
+	display: block;
+}
+.contato-direita .card .info .head{
+    font-weight: 500;
+}
+.contato-direita .card .info .sub-title{
+    color: black;
+}
+.contato-direita .card ion-icon{
+    font-size: 25px;
+    color: #00FF7F;
+}
+
+.right {
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.contato-esquerda {
+	/* align-items: center;
+	text-align: center; */
+	justify-content: center;
+}
+
+.msg-titulo {
+	color: #00FF7F;
+	font-size: 1.6rem;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-wrap: wrap;
+}
+
+/* .texto-1 {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+} */
+
+.msg-conteiner {
+	width: 85%;
+	height: 55%;
+	background: rgba(22,22,22,0.2);
+	border-radius: 20px;
+	/* display: block; */
+	align-items: center;
+	/* padding: 10px; */
+}
+
+form {
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	display: block;
+	
+}
+
+ form .fields{
+    display: block;
+	margin-top: 10px;
+}
+
+form .full-name {
+	 width: 90%;
+	/*height: 40vh; */
+	display: flex;
+	justify-content: space-between;
+	/* margin-left: 10px; */
+	
+}
+
+form .name input,
+form .last-name input {
+	width: 100%;
+	
+}
+
+form .email input{
+	width: 90%;
+	/* height: 20vh; */
+}
+
+ form .field,
+ form .fields {
+    /* width: 100%;
+    height: 35px; */
+    margin-bottom: 12px;
+	/* margin-left: 10px; */
+}
+ form .field input,
+ form .msg textarea{
+    /* width: 100%;
+    height: 100%; */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    /* padding: 0 15px; */
+    font-size: 18px;
+}
+/*  form .name{
+    margin-right: 10px;
+}
+  */
+  
+  form .email,
+form .full-name  {
+    margin-left: 10px;
+}
+ form .msg textarea{
+    width: 90%;
+    height: 150px;
+}
+ form .msg textarea{
+    padding-top: 10px;
+    resize: none;
+}
+
+
+ form .btn-enviar{
+    width: 170px;
+    height: 33px;
+	display: inline-block;
+	color: #fff;
+	padding: 8px 30px;
+	border-radius: 50px;
+	font-weight: 500;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	background-color: #00FF7F;
+	transition: all 0.3s ease;
+}
+
+form .btn-enviar:hover{
+    color: #00FF7F;
+    background: none;
+	border: 1px solid #00FF7F;
+}
+
+/* Animação */
+
+[data-anime] {
+  opacity: 0;
+  
+}
+
+[data-anime="left"]{
+	transform: translate3d(-100px, 0px ,0px);
+	
+}
+
+[data-anime="right"] {
+  transform: translate3d(100px, 0px, 0px); 
+}
+
+[data-anime="down"] {
+  transform: translate3d(0px, -50px, 0px); 
+}
+
+[data-anime="up"] {
+  transform: translate3d(0px, 50px, 0px); 
+}
+
+
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px ,0px);
+
+}
