@@ -27,7 +27,7 @@ body{
 	overflow-x: hidden;
     width: 100%;
     height: 100%;
-	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(../imagens/fundo_contato.jpg);
+	background: linear-gradient(45deg,rgba(8,83,156,	0.75),rgba(245,70,66,0.75)),url(../imagens/fundo_contato.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
@@ -101,11 +101,11 @@ footer {
 .left{
    /*  color: white; */
 	font-size: 1.8rem;
-	align-items: center;
-	text-align: center;
+	/* align-items: center; */
+	/* text-align: center; */
 	
 }
-.left .sub-titulo{
+.left h2{
 	text-shadow: black 0.1em 0.1em 0.2em;
 	text-wrap: wrap;
 	color: #00FF7F;
@@ -114,11 +114,12 @@ footer {
 }
 
 .left p{
-	text-align: center;
+	text-align: justify;
 	text-shadow: black 0.1em 0.1em 0.2em;
 	text-wrap: wrap;
 	color: white;
-	font-size: 1.6rem;
+	
+	margin-left: 10%;
 	
 	
 }
@@ -126,44 +127,47 @@ footer {
 .contato-esquerda-content{
     width: calc(50% - 30px);
 	top: 10px;
-	align-items: center;
-	text-align: center;
+	
+	
 }
-.contato-esquerda{
-    align-items: center;
-	gap: 10px;
+/* .contato-esquerda{
+    text-align: center;
 }
-
-.contato-esquerda .text{
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
+ */
+/* .contato-esquerda .texto{
+    text-wrap: wrap;
+	text-align: justify;
+	
+} */
 .contato-esquerda .icones{
     display: grid;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: auto auto auto;
 	flex-wrap: wrap;
     gap: 37px;
 	margin-top: 20px;
+	margin-left: 20px;
 }
 .contato-esquerda .card{
-    display: block;
+    display: flex;
+	width: 180px;
     height: 65px;
-	width: 80px;
-    align-items: center;
+	align-items: center;
+    cursor: pointer;
 	
 }
-.contato-direita .card .info{
+.contato-esquerda .card .info{
     margin-left: 30px;
-	display: block;
+	/* display: block; */
 }
-.contato-direita .card .info .head{
+.contato-esquerda .card .info .head{
     font-weight: 500;
 }
-.contato-direita .card .info .sub-title{
-    color: black;
+.contato-esquerda .card .info .sub-title{
+     color:#1C1C1C;
+	 font-size: 1.2rem;
 }
-.contato-direita .card ion-icon{
+
+.contato-esquerda .card ion-icon{
     font-size: 25px;
     color: #00FF7F;
 }
