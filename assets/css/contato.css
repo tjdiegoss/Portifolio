@@ -113,32 +113,25 @@ footer {
 	
 }
 
-.left p{
-	text-align: justify;
+.left .texto{
+	text-align: center;
 	text-shadow: black 0.1em 0.1em 0.2em;
 	text-wrap: wrap;
 	color: white;
-	
 	margin-left: 10%;
-	
 	
 }
 
-.contato-esquerda-content{
+/* .contato-esquerda-content{
     width: calc(50% - 30px);
 	top: 10px;
 	
 	
-}
-/* .contato-esquerda{
-    text-align: center;
-}
- */
-/* .contato-esquerda .texto{
-    text-wrap: wrap;
-	text-align: justify;
-	
 } */
+
+ 
+ 
+
 .contato-esquerda .icones{
     display: grid;
 	grid-template-columns: auto auto auto;
@@ -201,18 +194,15 @@ footer {
 	width: 85%;
 	height: 55%;
 	background: rgba(22,22,22,0.2);
-	border-radius: 20px;
-	/* display: block; */
-	align-items: center;
-	/* padding: 10px; */
+	border-radius: 20px;	
+	align-items: center;	
 }
 
 form {
 	width: 100%;
 	height: 100%;
 	align-items: center;
-	display: block;
-	
+	display: block;	
 }
 
  form .fields{
@@ -220,51 +210,32 @@ form {
 	margin-top: 10px;
 }
 
-form .full-name {
-	 width: 90%;
-	/*height: 40vh; */
-	display: flex;
-	justify-content: space-between;
-	/* margin-left: 10px; */
-	
-}
 
-form .name input,
-form .last-name input {
-	width: 100%;
-	
+form .name input {
+	width: 90%;	
 }
 
 form .email input{
-	width: 90%;
-	/* height: 20vh; */
+	width: 90%;	
 }
 
  form .field,
  form .fields {
-    /* width: 100%;
-    height: 35px; */
-    margin-bottom: 12px;
-	/* margin-left: 10px; */
+  margin-bottom: 12px;
 }
+
  form .field input,
- form .msg textarea{
-    /* width: 100%;
-    height: 100%; */
+ form .msg textarea {		
     border: 1px solid #ccc;
     border-radius: 6px;
     outline: none;
-    /* padding: 0 15px; */
     font-size: 18px;
 }
-/*  form .name{
-    margin-right: 10px;
-}
-  */
+
   
-  form .email,
-form .full-name  {
-    margin-left: 10px;
+	form .email,
+	form .name  {
+    
 }
  form .msg textarea{
     width: 90%;
