@@ -70,14 +70,16 @@ button {
     padding: 10px 100px;
     border-radius: 25px;
     cursor: pointer;
-    color: white;
-    background-color: #696969;
-    border: none;
+    color: #fff;
+    background-color: #00FF7F;
+    border: 1px solid #ccc;
     transition: ease-in-out 0.3s;
 }
 
 button:hover {
-    background-color: #00FF7F;
+    color: #00FF7F;
+    background: none;
+	border: 1px solid #00FF7F;
 }
 
 .ver-mais {
