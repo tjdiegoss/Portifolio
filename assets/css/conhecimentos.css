@@ -60,7 +60,6 @@ header {
 	font-size: 30px;
 	color: white;
 	padding-bottom: 20px;
-	
 	text-shadow: black 0.1em 0.1em 0.2em;
 	transition: 0.8s;
 }
@@ -103,6 +102,7 @@ button:hover {
 
 .conhecimentos a {
     display: inline;
+	text-decoration: none;
 }
 
 .card-container{
@@ -197,7 +197,7 @@ button:hover {
 	
 }
 
-.tecnologias {
+.detalhes {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -206,50 +206,65 @@ button:hover {
 	
 }
 
-.card-tec {
+.card-det ion-icon{
+	color: white;
+	text-shadow: blue 0.1em 0.1em 0.2em;
+	font-weight: bold;
+	font-size: 1.8rem;
+}
+
+.card-det {
+	color: white;
+	text-shadow: blue 0.1em 0.1em 0.2em;
+	font-weight: bold;
+	opacity: 1;
+	background-color: #121212;
+	border: 2px solid #00FF7F;
+	border-radius: 10px;
 	padding: 5px 15px;
     text-align: center;
     margin-right: 20px;
-    margin-top: 20px;
-    font-size: 1.5rem;
+    margin-top: 15px;
+    font-size: 1.2rem;
 	cursor: pointer;
 	transition: 0.7s;
 	
 }
 
-.card-tec:hover {
-    transform: rotate(-360deg);
-	background: #00FF7F;
+.card-det:before {
+    background: linear-gradient(150deg, rgba(210, 64, 116, 1), rgba(101, 24, 180, 1));
+	background-size: 400%;
 }
 
-.card-tec.html {
-    background-color: rgba(255, 111, 0, 0.25);
-	border: 2px solid #FF6D00;
-    border-radius: 10px;
+.card-det:hover {
+    background-color: #272727;
+	text-shadow: 1px 1px 3px #00bbc5;
 }
 
-.card-tec.css {
-    border: 2px solid #039BE5; 
-	border-radius: 10px;	
-    background-color: rgba(3, 155, 229,0.25);
+/* .card-det.plataforma {
+    
 }
 
-.card-tec.javascript {
-    border: 2px solid #FFD600;
-	border-radius: 10px;    
-    background-color: rgba(255, 214, 0,0.25);
+.card-det.carga-h {
+    
 }
 
+.card-det.data {
+    
+}
+ */
 .card-links {
-    font-size: 2.5rem;
-    text-align: end;
-    padding-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+	margin-top: 10px;
+    padding-bottom: 1rem;
+	
 }
 
 .card-links a{
     margin-right: 2rem;
     cursor: pointer;
-    color: var(--second);
+    color: white;
 }
 
 .card-links a:hover{
