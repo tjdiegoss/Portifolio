@@ -27,11 +27,11 @@ body{
 	overflow-x: hidden;
     width: 100%;
     height: 100%;
-	background: linear-gradient(45deg,rgba(245,70,66,0.75),rgba(8,83,156,0.75)),url(../imagens/fundo_exp.jpg);
+	background: linear-gradient(45deg,rgba(210,105,30,0.75),rgba(205,92,92,0.75)),url(../imagens/fundo_exp.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 	
   
 }
@@ -46,7 +46,8 @@ header {
 }
 
 .xp {
-    padding-top: 60px;
+    padding-top: 40px;
+	align-items: center;
 }
 
 .titulo {
@@ -72,12 +73,67 @@ header {
     padding-bottom: 20px;
 }
 
+/* .xp-content {
+	justify-content: space-around;
+}
+ */
 .card-container{
 	background: rgba(22,22,22,0.2);
 	border-radius: 20px;
-	width: 80vw;
+	width: 60vw;
 	transition: ease-in-out 0.8s;
 	justify-content: center;
+	margin-bottom: 20px;
+	margin: 0 auto;
+}
+
+.xp-cards {
+	display: flex;	
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+	text-wrap: wrap;
+}
+
+.xp-cards .left {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	
+}
+
+.card-info{
+	font-size: 20px;
+	padding: 10px;
+	/* text-shadow: black 0.1em 0.1em 0.2em; */
+	
+}
+
+.card-info.desc {
+	width: 25vw;
+	text-align: justify;
+	
+}
+
+.card-info h4{
+	color: black;
+}
+
+.card-info p{
+	color: #A9A9A9;
+}
+
+
+ion-icon {
+	color: #00FF7F;
+	font-size: 30px;
+}
+
+.xp-cards .right {
+	display: block;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -85,6 +141,34 @@ header {
     opacity: 0;
     display: none;
     transition: 1000ms;
+}
+
+button {
+    padding: 10px 100px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #00FF7F;
+    border: 1px solid #ccc;
+    transition: ease-in-out 0.3s;
+}
+
+button:hover {
+    color: #00FF7F;
+    background: none;
+	border: 1px solid #00FF7F;
+}
+
+.ver-mais {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+	/* border: 2px solid #00FF7F; */
 }
 
 footer {

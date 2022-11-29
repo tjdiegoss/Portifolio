@@ -49,7 +49,10 @@
 <p align="center"> Sessão Contato </p>  
 
 <p align="center"> <image title="" aria-hidden="true" src=".github/screenshot_conhecimentos.png" /></p>
-<p align="center"> Sessão Conhecimentos </p>
+<p align="center"> Sessão Conhecimentos </p>  
+
+<p align="center"> <image title="" aria-hidden="true" src=".github/screenshot_exp.png" /></p>
+<p align="center"> Sessão Experiência </p>  
   
  ---  
   
