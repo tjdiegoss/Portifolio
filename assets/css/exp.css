@@ -44,3 +44,51 @@ header {
 	
 	
 }
+
+.xp {
+    padding-top: 60px;
+}
+
+.titulo {
+	font-size: 60px;
+	color: #00FF7F;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	transition: 0.8s;
+}
+
+.titulo-2 {
+	font-size: 30px;
+	color: white;
+	padding-bottom: 20px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	transition: 0.8s;
+}
+
+.xp h2, h3, .xp a {
+    text-align: center;
+}
+
+.xp h2 {
+    padding-bottom: 20px;
+}
+
+.card-container{
+	background: rgba(22,22,22,0.2);
+	border-radius: 20px;
+	width: 80vw;
+	transition: ease-in-out 0.8s;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.escondido {
+    opacity: 0;
+    display: none;
+    transition: 1000ms;
+}
+
+footer {
+	width: 100vw;
+	height: 7vh;
+	margin-bottom: 0;
+}
