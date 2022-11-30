@@ -31,7 +31,7 @@ body{
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 	
   
 }
