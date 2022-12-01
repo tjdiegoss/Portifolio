@@ -109,6 +109,19 @@ button:hover {
 .card-superior {
 	display: flex;
 	
+	
+}
+
+.card-superior .left{
+	width: 50%;
+	
+}
+
+.card-superior .right{
+	width: 50%;
+	height: 100%;
+	
+	
 }
 
 .textos {
@@ -133,10 +146,23 @@ button:hover {
 	
 }
 
+.atributos {
+	font-size: 2rem;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 100px;
+	color: #1C1C1C;
+	text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+ion-icon, .fa-solid{
+    color: #00FF7F;
+}
+
 .card {
     background-color: #C4C4C4;
     height: 195px;
-    width: 380px;
+    width: 90%;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -150,28 +176,16 @@ button:hover {
 	
 }
 
-.card img{
+ .card img{
 	width: 380px;
 	height: 200px;
 }
 
-.card div p {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 20px;
-    color: black;
-}
+
 
 .card:hover {
     letter-spacing: 5px;
 	transform: scale(1.2);
-}
-
-.card div {
-    background-color: #00FF7F;
-    width: 1000px;
-    text-align: center;
-    padding: 5% 0;
-    transform: rotate(-50deg);
 }
 
 .escondido {
@@ -239,6 +253,7 @@ button:hover {
     font-size: 2.5rem;
     text-align: end;
     padding-top: 2rem;
+	padding-bottom: 1rem;
 }
 
 .card-links a{
