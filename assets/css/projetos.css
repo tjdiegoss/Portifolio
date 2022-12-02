@@ -151,6 +151,10 @@ button:hover {
 	display: flex;
 	justify-content: space-around;
 	margin-top: 100px;
+	
+}
+
+label{
 	color: #1C1C1C;
 	text-shadow: white 0.1em 0.1em 0.2em;
 }
