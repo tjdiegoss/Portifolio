@@ -208,3 +208,17 @@ footer {
 	height: 7vh;
 	margin-bottom: 0;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #1b1b1b;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00d2df;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #00bbc5;
+}

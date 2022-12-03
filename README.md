@@ -39,7 +39,7 @@
 <p align="center"> <image title="" aria-hidden="true" src=".github/screenshot_sobre.png" /></p>
 <p align="center"> Sessão Sobre </p>  
 
-<p align="center"> <image title="" aria-hidden="true" src=".github/screenshot_skills.gif" /></p>
+<p align="center"> <image title="" aria-hidden="true" src=".github/screenshot_skills.png" /></p>
 <p align="center"> Sessão Skills </p>  
 
 <p align="center"> <image title="" aria-hidden="true" src=".github/screenshot_projetos.png" /></p>
