@@ -36,12 +36,11 @@ body{
   
 }
 
+/*cabeçalho*/
 header {
 	width: 100vw;
 	height: 7vh;
-	/* position: absolute; */
-	/* background: black; */
-	
+		
 	
 }
 
@@ -81,12 +80,12 @@ main {
 .esquerda .skill-cards {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
-    /* justify-content: center; */
     flex-wrap: wrap;
     gap: 37px;
     max-width: 55% ;
 }
 
+/*cards*/
 .esquerda .skill-cards article {
 	width: 106px;
 	height:106px;
@@ -103,9 +102,6 @@ main {
 	flex-grow:1;
 	border:2px solid #696969;
 	transition:1s all ease;
-	
-	
-
 	
 }
 
@@ -187,7 +183,7 @@ article:hover .skill-icones {
 	
 }
 
-
+/*terminal*/
 .terminal {
 	transition: 0.8s;
 	border-radius: 20px;
@@ -225,13 +221,14 @@ pre {
   margin: 0;
 }
 
-
+/*rodapé*/
 footer {
 	width: 100vw;
 	height: 7vh;
 		
 }
 
+/*barra scroll*/
 ::-webkit-scrollbar {
   width: 10px;
   background-color: #1b1b1b;
@@ -280,18 +277,4 @@ footer {
 
 }
 
-.sobre-btn-curriculo.animar {
-	animation: btn-anime 1.4s ease-in;
-}
 
-.sobre-btn-linkedin.animar {
-	animation: btn-anime 2.0s ease-in;
-}
-
-.sobre-btn-github.animar {
-	animation: btn-anime 2.4s ease-in;
-}
-
-.sobre-btn-email.animar {
-	animation: btn-anime 2.6s ease-in;
-} 
