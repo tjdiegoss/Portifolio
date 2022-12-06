@@ -37,6 +37,7 @@ body{
   
 }
 
+/*cabeçalho*/
 header {
 	width: 100%;
 	height: 7vh;
@@ -97,10 +98,8 @@ main {
 
 
 .left{
-   /*  color: white; */
-	font-size: 1.8rem;
-	/* align-items: center; */
-	/* text-align: center; */
+   	font-size: 1.8rem;
+	
 	
 }
 .left h2{
@@ -119,16 +118,6 @@ main {
 	margin-left: 10%;
 	
 }
-
-/* .contato-esquerda-content{
-    width: calc(50% - 30px);
-	top: 10px;
-	
-	
-} */
-
- 
- 
 
 .contato-esquerda .icones{
     display: grid;
@@ -153,7 +142,7 @@ main {
 }
 .contato-esquerda .card .info{
     margin-left: 30px;
-	/* display: block; */
+	
 }
 .contato-esquerda .card .info .head{
     font-weight: 500;
@@ -176,8 +165,6 @@ main {
 }
 
 .contato-esquerda {
-	/* align-items: center;
-	text-align: center; */
 	justify-content: center;
 }
 
@@ -187,12 +174,6 @@ main {
 	text-shadow: black 0.1em 0.1em 0.2em;
 	text-wrap: wrap;
 }
-
-/* .texto-1 {
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-} */
 
 .msg-conteiner {
 	width: 85%;
@@ -303,11 +284,13 @@ form .btn-enviar:hover{
 
 }
 
+/*rodapé*/
 footer {
 	width: 100vw;
 	height: 7vh;		
 }
 
+/*barra scroll*/
 ::-webkit-scrollbar {
   width: 10px;
   background-color: #1b1b1b;
