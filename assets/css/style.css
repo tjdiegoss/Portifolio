@@ -583,19 +583,45 @@ footer span a:hover{
 }
 
 
-@media (max-width: 999px){
+@media (max-width: 1180px){
 
-	section {
+	main .inicio {
 		
 	}
 	
+	header {
+		z-index: 3;
+	}
+	
 	.barra-menu .lista-itens a{
-        color: green;
+        color: yellow;
 		text-shadow: black 0.1em 0.1em 0.2em;
     }
-		
+	
+	main .scroll{
+		margin-left: -50px;
+	}
+	
 	.desenho {
-		opacity: 100;
+		width: 80%;
+		height: 30%;
+	}
+	
+	.sobre-foto {
+		
+	}
+	
+	main .sobre .sobre-btns{
+		flex-wrap: wrap;
+	}
+		
+	.logo {
+		margin-left: 30%;
+	}
+	
+	.inicio-texto {
+		font-size: 8.5px;
+		
 	}
 
     .barra-menu .lista-itens{
@@ -630,5 +656,25 @@ footer span a:hover{
 	.barra-menu .lista-itens.active {
     transform: translateX(0);
 	
+	}
+}
+
+@media (max-width: 991px){}
+
+@media (max-width: 947px){}
+
+@media (max-width: 690px){}
+
+@media (max-width: 500px){
+	
+	header {
+		margin: 0;
+		justify-content: space-between;
+	}
+	
+	main .inicio {
+		display: block;
+		align-items: center;
+		margin-top: 20px;
 	}
 }

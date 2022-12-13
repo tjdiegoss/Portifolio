@@ -278,3 +278,14 @@ footer {
 }
 
 
+/*Responsividade*/
+
+@media (max-width: 1104px){}
+
+@media (max-width: 991px){}
+
+@media (max-width: 947px){}
+
+@media (max-width: 690px){}
+
+@media (max-width: 500px){}
