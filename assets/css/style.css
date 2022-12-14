@@ -157,7 +157,7 @@ main .inicio {
     background-repeat: no-repeat;
 }
 
-main .inicio .inicio-esqueda{
+main .inicio .inicio-esquerda{
 	width: 50%;
 	height: 100%;
 	display: flex;
@@ -607,11 +607,43 @@ footer span a:hover{
 		height: 30%;
 	}
 	
-	.sobre-foto {
+	main .sobre {
+		display: block;
+		
+		justify-content: center;
+		
 		
 	}
 	
+	main .sobre .sobre-esquerda, main .sobre .sobre-direita{
+		width: 100%;
+		height: 50%;
+		padding-top: 20px;
+		align-items: center;
+	}
+	
+	main .sobre .sobre-direita{
+		
+	}
+	
+	main .sobre .sobre-foto {
+		margin-left: 30%;
+		width: 35%;
+		margin-bottom: 10px;
+	}
+	
+	main .sobre .titulo {
+		text-align: center;
+	}
+	
+	main .sobre .sobre-texto {
+			width: 80%;
+			margin-left: 10%;
+			
+			}
+	
 	main .sobre .sobre-btns{
+		margin-left: 15%;
 		flex-wrap: wrap;
 	}
 		
@@ -659,11 +691,90 @@ footer span a:hover{
 	}
 }
 
-@media (max-width: 991px){}
+@media (max-width: 915px){
+	.logo {
+		margin-left: 0;
+		
+	}
+	
+	.logo a {
+		font-size: 25px;
+		
+	}
+	
+	main .inicio {
+		display: block;
+	}
+	
+	main .inicio .inicio-esquerda, main .inicio  .inicio-direita{
+		width: 100%;
+		height: 50%;
+	}
+	
+		
+	.inicio-texto {
+		padding-top: 20px;
+		
+	}
+	
+	
+	
+	.desenho {
+		width: 40%;
+		height: 35%;
+	}
+	
+	main .sobre .sobre-foto {
+		margin-top: -10px;
+	}
+	
+	main .sobre .titulo {
+		margin-top: -100px;
+		
+	}
+	
+	main .sobre .sobre-texto {
+		font-size: 13px;
+	}
+	
+	main .sobre .sobre-btns .high{
+		display: flex;
+		gap: 80px;
+	}
+	
+	main .sobre .sobre-btns .low{
+		display: flex;
+		gap: 80px;
+	}
+	
+	main .sobre .sobre-btns{
+		display: block;
+	}
+}
 
-@media (max-width: 947px){}
+@media (max-width: 844px){
+	.desenho {
+		margin-top: 50px;
+	}
+}
 
-@media (max-width: 690px){}
+@media (max-width: 740px){
+	 .linha-1 {
+		font-size: 22px;
+	}
+	.linha-2 {
+		font-size: 50px;
+	}
+	.linha-3 {
+		font-size: 40px;
+	}
+	
+	.desenho {
+		margin-top: 60px;
+	}
+}
+
+@media (max-width: 667px){}
 
 @media (max-width: 500px){
 	
