@@ -585,10 +585,6 @@ footer span a:hover{
 
 @media (max-width: 1180px){
 
-	main .inicio {
-		
-	}
-	
 	header {
 		z-index: 3;
 	}
@@ -774,7 +770,72 @@ footer span a:hover{
 	}
 }
 
-@media (max-width: 667px){}
+@media (max-width: 667px){
+	.logo a{
+		font-size: 18px;
+	}
+	
+	.inicio-texto {
+		margin: 0 auto;
+	}
+	
+	.linha-1 {
+		font-size: 20px;
+	}
+	.linha-2 {
+		font-size: 39px;
+	}
+	.linha-3 {
+		font-size: 34px;
+	}
+	
+	.desenho {
+		margin-top: -90px;
+	}
+	
+	.scroll {
+		font-size: 15px;
+	}
+	
+	main .sobre .sobre-foto {
+		margin-top: -90px;
+	}
+	
+	main .sobre .sobre-texto {
+		font-size: 11px;
+	}
+	
+	main .sobre .titulo {
+		font-size: 18px;
+		margin-top: -150px;
+		
+	}
+	
+	.sobre-btn-curriculo,
+.sobre-btn-email,
+.sobre-btn-linkedin,
+.sobre-btn-github {
+	width: 80px;
+	height: 32px;
+	
+}
+
+	.sobre-btn-linkedin img,
+	.sobre-btn-github img,
+	.sobre-btn-email img,
+	.sobre-btn-curriculo img {
+	width: 18px;
+}
+
+main .sobre .sobre-btns .high{
+		gap: 40px;
+	}
+	
+	main .sobre .sobre-btns .low{
+		gap: 40px;
+	}
+	
+}
 
 @media (max-width: 500px){
 	
