@@ -13,7 +13,7 @@
  ---  
   
  ## Projeto   
-  
+ Site Portfólio de programador, onde ficarão expostos os meus projetos pessoais na área de desenvolvimento, meu progresso nos estudos e as minhas experiências profissionais. 
   <p align="center"> <image title="" aria-hidden="true" src=".github/tela_inicial.gif" /></p>
 <p align="center">GIF da tela inicial do projeto na versão para desktop </p>  
   
