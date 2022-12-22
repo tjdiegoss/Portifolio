@@ -345,7 +345,7 @@ main .sobre .sobre-texto{
 	color: white;
 	text-shadow: black 0.1em 0.1em 0.2em;
 	text-wrap: wrap;
-	padding-top: 50px;
+	padding-top: 30px;
 	transition: 1.2s;
 }
 
@@ -583,7 +583,7 @@ footer span a:hover{
 }
 
 
-@media (max-width: 1180px){
+/* @media (max-width: 1180px){
 
 	header {
 		z-index: 3;
@@ -849,4 +849,4 @@ main .sobre .sobre-btns .high{
 		align-items: center;
 		margin-top: 20px;
 	}
-}
+} */
