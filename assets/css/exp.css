@@ -27,7 +27,7 @@ body{
 	overflow-x: hidden;
     width: 100%;
     height: 100%;
-	background: linear-gradient(45deg,rgba(210,105,30,0.75),rgba(205,92,92,0.75)),url(../imagens/fundo_exp.jpg);
+	background: linear-gradient(45deg,rgba(210,105,30,0.75),rgba(128,128,0,0.75)),url(../imagens/fundo_exp.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
@@ -120,7 +120,7 @@ header {
 }
 
 .card-info p{
-	color: #A9A9A9;
+	color: #eee;
 }
 
 
@@ -147,9 +147,9 @@ button {
     padding: 10px 100px;
     border-radius: 25px;
     cursor: pointer;
-    color: #fff;
+    color: #363636;
     background-color: #00FF7F;
-    border: 1px solid #ccc;
+    border: 1px solid #363636;
     transition: ease-in-out 0.3s;
 }
 

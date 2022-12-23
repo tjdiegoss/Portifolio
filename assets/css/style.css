@@ -206,21 +206,23 @@ main .inicio .inicio-direita{
 
 .linha-3 span{
 	color: #00008B;
-	-webkit-text-stroke: 1px #808000;
+	-webkit-text-stroke: 1px #C0C0C0;
      text-stroke: 2px black;
 	 font-weight: 500;
 }
 
-
+.desenho-container {
+	width: 80%;
+	height: 80%;
+	margin: auto auto;
+	
+}
 
 .desenho{
-	 border-radius: 300px; 
-	 width: 65%;
-	 height: 65%;
-	opacity: 75%;
+	width: 100%;
+	margin: 100px auto; 
 	border: 2px solid #FF6347;
-	 
-	 
+	border-radius: 1200px;
 }
 
 
@@ -233,8 +235,6 @@ main .inicio .inicio-direita{
   align-items: center;
   font-size: 22px;  
   letter-spacing: 2px;
-  /* background-color: black; */
-  
   
 }
 
@@ -583,7 +583,7 @@ footer span a:hover{
 }
 
 
-/* @media (max-width: 1180px){
+ @media (max-width: 1180px){
 
 	header {
 		z-index: 3;
@@ -594,54 +594,7 @@ footer span a:hover{
 		text-shadow: black 0.1em 0.1em 0.2em;
     }
 	
-	main .scroll{
-		margin-left: -50px;
-	}
 	
-	.desenho {
-		width: 80%;
-		height: 30%;
-	}
-	
-	main .sobre {
-		display: block;
-		
-		justify-content: center;
-		
-		
-	}
-	
-	main .sobre .sobre-esquerda, main .sobre .sobre-direita{
-		width: 100%;
-		height: 50%;
-		padding-top: 20px;
-		align-items: center;
-	}
-	
-	main .sobre .sobre-direita{
-		
-	}
-	
-	main .sobre .sobre-foto {
-		margin-left: 30%;
-		width: 35%;
-		margin-bottom: 10px;
-	}
-	
-	main .sobre .titulo {
-		text-align: center;
-	}
-	
-	main .sobre .sobre-texto {
-			width: 80%;
-			margin-left: 10%;
-			
-			}
-	
-	main .sobre .sobre-btns{
-		margin-left: 15%;
-		flex-wrap: wrap;
-	}
 		
 	.logo {
 		margin-left: 30%;
@@ -687,7 +640,7 @@ footer span a:hover{
 	}
 }
 
-@media (max-width: 915px){
+/*@media (max-width: 915px){
 	.logo {
 		margin-left: 0;
 		

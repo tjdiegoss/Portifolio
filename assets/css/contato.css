@@ -148,7 +148,7 @@ main {
     font-weight: 500;
 }
 .contato-esquerda .card .info .sub-title{
-     color:#1C1C1C;
+     color:#191970;
 	 font-size: 1.2rem;
 }
 
@@ -236,12 +236,12 @@ form .email input{
     width: 170px;
     height: 33px;
 	display: inline-block;
-	color: #fff;
+	color: #363636;
 	padding: 8px 30px;
 	border-radius: 50px;
 	font-weight: 500;
 	font-size: 18px;
-	border: 1px solid #ccc;
+	border: 1px solid #363636;
 	background-color: #00FF7F;
 	transition: all 0.3s ease;
 }

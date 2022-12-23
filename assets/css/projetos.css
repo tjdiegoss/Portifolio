@@ -72,9 +72,9 @@ button {
     padding: 10px 100px;
     border-radius: 25px;
     cursor: pointer;
-    color: #fff;
+    color: #363636;
     background-color: #00FF7F;
-    border: 1px solid #ccc;
+    border: 1px solid #363636;
     transition: ease-in-out 0.3s;
 }
 
