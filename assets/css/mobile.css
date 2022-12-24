@@ -22,9 +22,20 @@
  
  
 /* Showcase */
+.logo {
+	text-align: center;
+	margin: auto;
+}
 
-main .scroll{
-		margin: 0 auto;
+ .logo a{
+	 font-size: 18px;
+	 margin: 0;
+ }
+main .scroll {
+		font-size: 12px;
+		
+		
+		
 	}
 	
 		
@@ -45,6 +56,7 @@ main .scroll{
 		
 	.inicio-texto {
 		margin: 0 auto;
+		text-wrap: wrap;
 	}
 		.linha-1 {
 		font-size: 17px;
@@ -54,15 +66,52 @@ main .scroll{
 	}
 	.linha-3 {
 		font-size: 35px;
-	}		
+	}
+
+	main .inicio .inicio-direita .desenho-container{
+		width: 80%;
+		height: 80%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	main .inicio .inicio-direita .desenho-container img {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	main .sobre {
+		flex-direction: column;
+		
+		text-align: center;
+		align-items: center;
+	}
+	
+	main .sobre .sobre-esquerda, main .sobre .sobre-direita {
+		width: 100%;
+		height: 50%;
+	}
+	
+	main .sobre .sobre-esquerda .sobre-esquerda-container .sobre-foto {
+		margin-top: 50px;
+		margin: 0 auto;
+	}
+	
+	main .sobre .sobre-direita .titulo {
+		margin-top: -120px;
+	}
 	
 	main .sobre .sobre-direita .sobre-texto {
-		font-size: 12px;
+		width: 80%;
+		font-size: 13px;
+		margin: 0 auto;
+		
 	}
 	
 	main .sobre .sobre-direita .sobre-btns {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
+		justify: space-between;
 	}
 	 	
 	
