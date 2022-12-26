@@ -291,7 +291,7 @@ main .inicio .inicio-direita{
 main .sobre{
 	width: 100%;
 	height: 100%;
-	display: none; /*Essa linha aqui --------------------------------*/
+	display: flex;
 	flex-direction: space-around;
 	background: linear-gradient(45deg,rgba(255,140,0,0.75),rgba(0,0,128,0.75)),url(../imagens/fundo_sobre.jpg);
     background-position: center center;
