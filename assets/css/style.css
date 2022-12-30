@@ -380,10 +380,7 @@ main .sobre .sobre-texto a{
 }
 
 
-.sobre-btn-curriculo,
-.sobre-btn-email,
-.sobre-btn-linkedin,
-.sobre-btn-github {
+.sobre-btn {
 	display: flex;
 	align-items: center;
 	padding: 3px 5px 5px;
@@ -401,7 +398,7 @@ main .sobre .sobre-texto a{
 
 }
 
-.sobre-btn-email::before {
+.sobre-btn::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -412,17 +409,12 @@ main .sobre .sobre-texto a{
   /* animation: move infinite forwards 4s; */
 } 
 
- .sobre-btn-curriculo:hover,
-.sobre-btn-email:hover,
-.sobre-btn-linkedin:hover,
-.sobre-btn-github:hover{
+ .sobre-btn:hover{
   background-color: #272727;
   text-shadow: 1px 1px 3px #00bbc5;
 }
 
-.sobre-btn-github::before,
-.sobre-btn-curriculo::before,
-.sobre-btn-linkedin::before {
+.sobre-btn::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -433,17 +425,17 @@ main .sobre .sobre-texto a{
   /* animation: move infinite forwards 4s; */
 } 
 
-.sobre-btn-curriculo p,
-.sobre-btn-github p,
-.sobre-btn-github img {
+.sobre-btn p,
+.sobre-btn img {
   padding: 9px 0 5px;
 }
 
-.sobre-btn-linkedin img {
+.sobre-btn img {
   margin-right: 5px;
+  width: 22px;
 }
 
-.sobre-btn-curriculo p,
+/* .sobre-btn-curriculo p,
 .sobre-btn-curriculo img,
 .sobre-btn-email p,
 .sobre-btn-email img,
@@ -452,14 +444,14 @@ main .sobre .sobre-texto a{
 .sobre-btn-github p,
 .sobre-btn-github img {
   padding: 9px 0 5px;
-}
+} */
 
-.sobre-btn-linkedin img,
+/* .sobre-btn-linkedin img,
 .sobre-btn-github img,
 .sobre-btn-email img,
 .sobre-btn-curriculo img {
-  width: 22px;
-}
+  
+} */
 
 /*rodapé*/
 footer{
@@ -589,8 +581,175 @@ footer span a:hover{
     transform: rotate(45deg) translate(-5px, -7px);
 }
 
+@media (max-width: 1140px){
+	.logo a {
+		font-size: 22px;
+		
+	}
+	
+	.menu-content .lista-itens a {
+		font-size: 11px;
+		gap: 10px;
+	}
+	
+	.desenho{
+		margin-top: 200px;
+	}
+	
+	main .sobre .sobre-foto {
+		margin-top: 60px;
+	}
+	
+	.sobre-btns {
+		width: 25%;
+		justify-content: space-between;
+		gap: 30px;
+	}
+	
+	.sobre-btn {
+		font-size: 12px;
+		width: 100px;
+		height: 32px;
+	}
+	
+	.sobre-btn img {
+		width: 18px;
+	}
+}
 
-/* @media screen and (max-width: 1600px){
+@media (max-width: 990px){
+	header {
+		z-index: 3;
+	}
+	
+	.barra-menu .lista-itens a{
+        color: yellow;
+		text-shadow: black 0.1em 0.1em 0.2em;
+    }
+	
+	
+		
+	.logo {
+		margin-left: 40%;
+	}
+	
+	.inicio-texto {
+		font-size: 8.5px;
+		
+	}
+
+    .barra-menu .lista-itens{
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: rgba(22,22,22,0.2);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+		
+
+
+    }
+
+    .barra-menu .lista-itens li{
+        margin-left: 0;
+        opacity: 0;
+
+    }
+	
+    .mobile-menu{
+        display: block;
+
+    }
+
+
+	.barra-menu .lista-itens.active {
+    transform: translateX(0);
+	
+	}
+	
+	main .sobre .titulo {
+		margin-top: 30px;
+		font-size: 30px;
+	}
+	
+	.sobre-texto p{
+		font-size: 15px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	
+	
+	main .sobre .sobre-btns{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		/* grid-gap: 60px; */
+	}
+}
+
+@media (max-width: 747px){
+	.logo {
+		margin-left: 35%;
+	}
+	
+	main .inicio {
+		flex-direction: column;
+		align-items: center;
+	}
+		
+	
+	.linha-1 {
+		font-size: 20px;
+	}
+	.linha-2 {
+		font-size: 39px;
+	}
+	.linha-3 {
+		font-size: 34px;
+	}
+	
+	.desenho {
+		margin: 0 auto;
+	}
+	
+	.sobre-texto p{
+		font-size: 13px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	
+}
+
+@media (max-width: 516px){
+	.sobre{
+		flex-direction: column;
+	}
+	
+	main .sobre .sobre-direita, main .sobre .sobre-esquerda {
+		width: 100%;
+		height: 50%;
+	}
+	
+	.sobre-esquerda-container{
+		width: 40%;
+		height: 40%;
+		margin-top: 10px;
+	}
+	
+	.sobre-foto{
+		margin-top: 10px;
+	}
+	
+	.sobre-texto{
+		width: 80%;
+		
+	}
+}
+
+/*  @media screen and (max-width: 1600px){
 	
 	.menu-content .lista-itens a {
 		font-size: 22px;
@@ -698,9 +857,9 @@ footer span a:hover{
 		}
 		
 		.sobre-btns {
-			*
+			
 		}
-} */ ate aqui
+}  */
 
  /* @media (max-width: 1104px){
 
