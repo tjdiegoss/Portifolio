@@ -699,6 +699,7 @@ footer span a:hover{
 	main .inicio {
 		flex-direction: column;
 		align-items: center;
+		justify-content: center;
 	}
 		
 	
@@ -724,6 +725,16 @@ footer span a:hover{
 }
 
 @media (max-width: 516px){
+	.logo {
+		margin-left: 25%;
+	}
+	
+	.inicio-esquerda, .inicio-direita {
+		 width: 100vw;
+		 height: 50%;
+		 
+	 }
+	
 	.sobre{
 		flex-direction: column;
 	}
@@ -731,21 +742,106 @@ footer span a:hover{
 	main .sobre .sobre-direita, main .sobre .sobre-esquerda {
 		width: 100%;
 		height: 50%;
+		
+	}
+	
+	.inicio-texto{
+		margin: 0 auto;
+		justify-content: center;
+	}
+	
+		
+	.linha-1 {
+		font-size: 22px;
+	}
+	.linha-2 {
+		font-size: 41px;
+	}
+	.linha-3 {
+		font-size: 36px;
+	}
+
+	 .desenho-container {
+		width: 90%;
+		
 	}
 	
 	.sobre-esquerda-container{
-		width: 40%;
-		height: 40%;
+		width: 45%;
+		height: 45%;
 		margin-top: 10px;
 	}
 	
-	.sobre-foto{
-		margin-top: 10px;
+	main .sobre .sobre-foto{
+		margin-top: -20px;
 	}
 	
-	.sobre-texto{
+	main .sobre .titulo  {
+		margin-top: -140px;
+		text-align: center;
+	}
+	
+	main .sobre .sobre-texto{
 		width: 80%;
-		
+		margin: 0 auto;
+		margin-top: -30px;
+	}
+	
+	.sobre-btns {
+		margin: auto 25%;
+	}
+}
+
+@media (max-width: 447px){
+	.logo {
+		margin-left: 20%;
+	}
+	
+	.desenho {
+		margin-top: 50px;
+	}
+	
+	main .sobre .titulo  {
+	margin-top: -170px;
+	}
+	
+	.sobre-texto p{
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 376px){
+	.logo {
+		margin-left: 3%;
+	}
+	
+	@media (max-width: 280px){
+		.logo a{
+			font-size: 15px;
+		}
+	main .sobre .titulo  {
+		font-size: 18px;
+		margin-top: -200px;
+	}
+	
+	.sobre-texto p{
+		font-size: 10px;
+	}
+	
+	.sobre-btns {
+		width: 25%;
+		gap: 30px;
+		margin: auto 18%;
+	}
+	
+	.sobre-btn {
+		font-size: 10px;
+		width: 80px;
+		height: 26px;
+	}
+	
+	.sobre-btn img {
+		width: 15px;
 	}
 }
 
