@@ -581,7 +581,7 @@ footer span a:hover{
     transform: rotate(45deg) translate(-5px, -7px);
 }
 
-@media (max-width: 1140px){
+@media (max-width: 1069px){
 	.logo a {
 		font-size: 22px;
 		
@@ -592,12 +592,24 @@ footer span a:hover{
 		gap: 10px;
 	}
 	
+	.inicio-texto{
+		margin-top: 60px;
+	}
+	
 	.desenho{
-		margin-top: 200px;
+		margin-top: 100px;
 	}
 	
 	main .sobre .sobre-foto {
-		margin-top: 60px;
+		margin-top: 30px;
+	}
+	
+	.titulo  {
+		margin-top: -10px;
+	}
+	
+	.sobre-texto p{
+		font-size: 15px;
 	}
 	
 	.sobre-btns {
@@ -634,7 +646,7 @@ footer span a:hover{
 	}
 	
 	.inicio-texto {
-		font-size: 8.5px;
+		margin-top: 30px;
 		
 	}
 
@@ -673,13 +685,13 @@ footer span a:hover{
 	}
 	
 	main .sobre .titulo {
-		margin-top: 30px;
+		margin-top: -30px;
 		font-size: 30px;
 	}
 	
 	.sobre-texto p{
-		font-size: 15px;
-		margin-top: 20px;
+		font-size: 13px;
+		margin-top: -10px;
 		margin-bottom: 20px;
 	}
 	
@@ -688,6 +700,46 @@ footer span a:hover{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		/* grid-gap: 60px; */
+	}
+	
+	.linha-1 {
+		font-size: 22px;
+	}
+	.linha-2 {
+		font-size: 50px;
+	}
+	.linha-3 {
+		font-size: 40px;
+	}
+	
+	.desenho{
+		margin-top: 60px;
+	}
+}
+
+@media (max-width: 854px){
+	
+	.logo {
+		margin-left: 35%;
+	}
+	.sobre-texto p{
+		font-size: 12px;
+	}
+	
+	.sobre-btns {
+		width: 50%;
+		gap: 30px;
+		margin: auto 10%;
+	}
+	
+	.sobre-btn {
+		font-size: 15px;
+		width: 120px;
+		height: 30px;
+	}
+	
+	.sobre-btn img {
+		width: 18px;
 	}
 }
 
@@ -701,42 +753,75 @@ footer span a:hover{
 		align-items: center;
 		justify-content: center;
 	}
-		
+	
+	.inicio-texto {
+		margin-top: -20px;
+	}	
 	
 	.linha-1 {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.linha-2 {
-		font-size: 39px;
+		font-size: 35px;
 	}
 	.linha-3 {
-		font-size: 34px;
+		font-size: 32px;
 	}
 	
 	.desenho {
 		margin: 0 auto;
+		margin-top: -20px;
+	}
+	
+	main .sobre .titulo  {
+		font-size: 18px;
 	}
 	
 	.sobre-texto p{
 		font-size: 13px;
-		margin-top: 10px;
+		margin-top: -10px;
 		margin-bottom: 10px;
+	}
+	
+	.sobre-btns {
+		width: 45%;
+		gap: 30px;
+		margin: auto 10%;
+	}
+	
+	.sobre-btn {
+		font-size: 9px;
+		width: 80px;
+		height: 26px;
+	}
+	
+	.sobre-btn img {
+		width: 15px;
+	}
 	
 }
 
-@media (max-width: 516px){
+
+@media (max-width: 719px){
 	.logo {
-		margin-left: 25%;
+		margin-left: 30%;
 	}
 	
-	.inicio-esquerda, .inicio-direita {
-		 width: 100vw;
-		 height: 50%;
-		 
-	 }
-	
+		
 	.sobre{
 		flex-direction: column;
+	}
+	
+		
+	.inicio-texto{
+		margin: 0 auto;
+		justify-content: center;
+		margin-top: -40px;
+	}
+	
+	 .desenho-container {
+		width: 90%;
+		
 	}
 	
 	main .sobre .sobre-direita, main .sobre .sobre-esquerda {
@@ -745,102 +830,109 @@ footer span a:hover{
 		
 	}
 	
-	.inicio-texto{
-		margin: 0 auto;
-		justify-content: center;
-	}
-	
-		
-	.linha-1 {
-		font-size: 22px;
-	}
-	.linha-2 {
-		font-size: 41px;
-	}
-	.linha-3 {
-		font-size: 36px;
-	}
-
-	 .desenho-container {
-		width: 90%;
-		
-	}
-	
-	.sobre-esquerda-container{
-		width: 45%;
-		height: 45%;
-		margin-top: 10px;
+	main .sobre .sobre-esquerda-container{
+		width: 25%;
+		height: 25%;
+		margin-top: -130px;
 	}
 	
 	main .sobre .sobre-foto{
-		margin-top: -20px;
+		/* margin-top: -20px; */
 	}
 	
 	main .sobre .titulo  {
-		margin-top: -140px;
+		margin-top: -90px;
 		text-align: center;
 	}
 	
 	main .sobre .sobre-texto{
 		width: 80%;
 		margin: 0 auto;
-		margin-top: -30px;
+		margin-top: -10px;
 	}
 	
-	.sobre-btns {
-		margin: auto 25%;
+	main .sobre .sobre-texto p{
+		font-size: 12px;
+	}
+	
+	main .sobre .sobre-btns {
+		display: flex;
+		justify-content: space-between;
 	}
 }
 
-@media (max-width: 447px){
+@media (max-width: 545px){
+	main .sobre .titulo {
+		margin-top: -150px;
+	}
+}
+
+@media (max-width: 469px){
 	.logo {
 		margin-left: 20%;
 	}
 	
 	.desenho {
-		margin-top: 50px;
+		margin-top: 10px;
 	}
 	
 	main .sobre .titulo  {
 	margin-top: -170px;
 	}
 	
-	.sobre-texto p{
-		font-size: 11px;
+	main .sobre .sobre-texto p{
+		font-size: 10px;
 	}
+	
+	main .sobre .sobre-btns{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		margin: auto 25%;
 }
 
 @media (max-width: 376px){
 	.logo {
 		margin-left: 3%;
 	}
+}
+
+@media (max-width: 327px){
+	.logo a{
+			font-size: 15px;
+			margin-left: 0;
+		}
+	
+	main .sobre .titulo{
+		margin-top: -210px;
+	}
+}
 	
 	@media (max-width: 280px){
 		.logo a{
-			font-size: 15px;
+			font-size: 13px;
 		}
 	main .sobre .titulo  {
 		font-size: 18px;
-		margin-top: -200px;
+		margin-top: -220px;
 	}
 	
-	.sobre-texto p{
-		font-size: 10px;
+	main .sobre .sobre-texto p{
+		font-size: 9px;
 	}
 	
-	.sobre-btns {
+	main .sobre .sobre-btns {
 		width: 25%;
 		gap: 30px;
 		margin: auto 18%;
 	}
 	
-	.sobre-btn {
+	main .sobre .sobre-btn {
 		font-size: 10px;
 		width: 80px;
 		height: 26px;
 	}
 	
-	.sobre-btn img {
+	main .sobre .sobre-btn img {
 		width: 15px;
 	}
 }
